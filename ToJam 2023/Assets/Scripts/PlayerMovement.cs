@@ -7,6 +7,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] [Tooltip("Amount of time it takes for player to move from one tile to the next")] private float moveSpeed;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    [SerializeField] private LayerMask colliderLayer;
+>>>>>>> origin/main
 =======
     [SerializeField] private LayerMask colliderLayer;
 >>>>>>> origin/main
@@ -33,8 +37,11 @@ public class PlayerMovement : MonoBehaviour
             {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0);
 =======
+=======
+>>>>>>> origin/main
 =======
 >>>>>>> origin/main
                 if(!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0), 0.2f, colliderLayer))
@@ -42,6 +49,9 @@ public class PlayerMovement : MonoBehaviour
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0);
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
 =======
 >>>>>>> origin/main
@@ -51,8 +61,11 @@ public class PlayerMovement : MonoBehaviour
             {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 movePoint.position += new Vector3(0, Input.GetAxisRaw("Vertical"), 0);
 =======
+=======
+>>>>>>> origin/main
 =======
 >>>>>>> origin/main
                 if(!Physics2D.OverlapCircle(movePoint.position + new Vector3(0, Input.GetAxisRaw("Vertical"), 0), 0.2f, colliderLayer))
@@ -60,6 +73,9 @@ public class PlayerMovement : MonoBehaviour
                     movePoint.position += new Vector3(0, Input.GetAxisRaw("Vertical"), 0);   
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
 =======
 >>>>>>> origin/main
