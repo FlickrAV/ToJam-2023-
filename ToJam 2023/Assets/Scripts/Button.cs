@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
-    [SerializeField] private GameObject objectToCall;
-    [SerializeField] private string functionToCall;
+    [SerializeField] private GameObject[] objectsToCall;
+    [SerializeField] private string[] functionsToCall;
 
     private void ButtonPressed()
     {
-        objectToCall.SendMessage(functionToCall);
+        for(int i = 0; i < objectsToCall.Length;i++)
+        {
+            objectsToCall[i].SendMessage(functionsToCall[i]);
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other) 
