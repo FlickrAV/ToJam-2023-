@@ -7,6 +7,7 @@ public class Arm : MonoBehaviour
     private List<Interactable> interactables = new List<Interactable>();
     private bool isInteracting = false;
     [HideInInspector] public bool isUsed = false;
+    private Interactable interactedObject;
 
 
     private void Update()
@@ -17,20 +18,28 @@ public class Arm : MonoBehaviour
             {
                 interactable.limbCanInteract = false;
                 interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.cyan;
+                isInteracting = false;
             }
         }
     }
 
     private void OnMouseDown()
     {
-         if (interactables.Capacity > 0)
+        if (interactables.Capacity > 0 && !isInteracting)
         {
             isInteracting = true;
-            foreach (Interactable interactable in interactables)
+            if (!isUsed)
             {
-                interactable.limbCanInteract = interactable.InteractionCheck(this.gameObject);
-                interactable.limbScript = this;
-                interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+                foreach (Interactable interactable in interactables)
+                {
+                    interactable.limbCanInteract = interactable.InteractionCheck(this.gameObject);
+                    interactable.limbScript = this;
+                    interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+                }
+            }
+            else
+            {
+                interactedObject.limbsUsed -= 1;
             }
         }
     }
