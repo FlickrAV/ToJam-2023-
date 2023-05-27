@@ -238,7 +238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4743912
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -288,6 +288,14 @@ PrefabInstance:
       propertyPath: functionsToCall.Array.data[0]
       value: Add
       objectReference: {fileID: 0}
+    - target: {fileID: 6064744471171724255, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: legs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6064744471171724255, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: limbStateScript
+      value: 
+      objectReference: {fileID: 1948594096}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
 --- !u!1001 &289633918
