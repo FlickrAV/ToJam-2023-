@@ -1,0 +1,904 @@
+fileFormatVersion: 2
+guid: 916493dfb89c5c848a46c0615af5d7a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 271
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5a7625fe35af44a80e5c71cb8aa36b
+      internalID: -655404657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771be9beab5772d4c8dd3c2d7ec6c187
+      internalID: -1655414310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c285bcffe3ef1544ab9e4b8ec20edbf
+      internalID: 1627147377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb09bed4fff6344cac1f1e4f89a15cd
+      internalID: 2037693307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cac1f1a5937fc45840d46ed2e2e2f0
+      internalID: 950546653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1be712ef8bd9a468a25ff4eae4df34
+      internalID: 1870172783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa0a5a0c8bc1204aa9f46c7771da5e8
+      internalID: 363661217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6125ad4e89dfae42a4bcea47bcfd7e9
+      internalID: 1866817170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08a4da8e6893334fb9b844166342e04
+      internalID: 1776662680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3c006ead5d8a44483efaa0cbf4e6ac
+      internalID: 1162730805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8514727811dad65459856e3451ac42b5
+      internalID: -422537387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_11
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af484be3fbeaee419de0fee5d923f15
+      internalID: 927519078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_12
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529488d33521cb1468aca764ce463d30
+      internalID: 1359785328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_13
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95ddc660727e4c4b9f9dc4330b2e2f1
+      internalID: 1196733832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a3b32eca218ad44a336df3c2c07ce0
+      internalID: -1084103640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d041f6d640fdbcf46ad737e4c7e44bc2
+      internalID: 615672671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_16
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e9b4ff2c7c1fe42ad7bb5333ca3573
+      internalID: 1927779481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7678190e4531983468ae0a3af4f897a1
+      internalID: -717320914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_18
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95fe53a799b4f2458273bcd9f1f0451
+      internalID: -462992117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_19
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aba16a9f836d17489a10c7e77cc58b0
+      internalID: 319743714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_20
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07996c9982571864ea379f5583a6dcb8
+      internalID: -1905903322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1569b18149d5763458026e90dcf6c27d
+      internalID: -1499741315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e39cbce08c6704c85104a2204fdd65
+      internalID: 41404451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_23
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cc45a3d6cdb8e448dd9dc8bc9f5115
+      internalID: 2134976865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596338a9849d9a0409eefc882df3cbf6
+      internalID: -461078333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_25
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a0494c31e0bff49b5d5035599d893d
+      internalID: -1992342946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_26
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fee2c7f2a4aef64a8723cdc0c46f8c6
+      internalID: 1294923141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_27
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490ab8b8848f9c34b8875fd443d7c38a
+      internalID: 554412895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df60f4ddd33685d42858cb0fbbf72546
+      internalID: 2118443557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_29
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3ff62e6bba77844aab6de645c40de0
+      internalID: 788998094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_30
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7809af4f83ab54b4e8ba158e429a2ffc
+      internalID: -1494192687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_31
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d87d91be280c5479c648a70eb34e10
+      internalID: -278218444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_32
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9be82d7517aa44396a0e55d7739118
+      internalID: 578478891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_33
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0fb402708065c418acb735ae072583
+      internalID: 250888212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameOutsideSpritesDark1_34
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3a1ed3d296c084a86bcdfe7c704489
+      internalID: 893366859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LimbGameOutsideSpritesDark1_30: -1494192687
+      LimbGameOutsideSpritesDark1_32: 578478891
+      LimbGameOutsideSpritesDark1_1: -1655414310
+      LimbGameOutsideSpritesDark1_23: 2134976865
+      LimbGameOutsideSpritesDark1_5: 1870172783
+      LimbGameOutsideSpritesDark1_20: -1905903322
+      LimbGameOutsideSpritesDark1_2: 1627147377
+      LimbGameOutsideSpritesDark1_3: 2037693307
+      LimbGameOutsideSpritesDark1_17: -717320914
+      LimbGameOutsideSpritesDark1_25: -1992342946
+      LimbGameOutsideSpritesDark1_8: 1776662680
+      LimbGameOutsideSpritesDark1_26: 1294923141
+      LimbGameOutsideSpritesDark1_28: 2118443557
+      LimbGameOutsideSpritesDark1_7: 1866817170
+      LimbGameOutsideSpritesDark1_13: 1196733832
+      LimbGameOutsideSpritesDark1_18: -462992117
+      LimbGameOutsideSpritesDark1_14: -1084103640
+      LimbGameOutsideSpritesDark1_33: 250888212
+      LimbGameOutsideSpritesDark1_15: 615672671
+      LimbGameOutsideSpritesDark1_16: 1927779481
+      LimbGameOutsideSpritesDark1_21: -1499741315
+      LimbGameOutsideSpritesDark1_19: 319743714
+      LimbGameOutsideSpritesDark1_27: 554412895
+      LimbGameOutsideSpritesDark1_11: 927519078
+      LimbGameOutsideSpritesDark1_0: -655404657
+      LimbGameOutsideSpritesDark1_29: 788998094
+      LimbGameOutsideSpritesDark1_12: 1359785328
+      LimbGameOutsideSpritesDark1_6: 363661217
+      LimbGameOutsideSpritesDark1_4: 950546653
+      LimbGameOutsideSpritesDark1_10: -422537387
+      LimbGameOutsideSpritesDark1_9: 1162730805
+      LimbGameOutsideSpritesDark1_24: -461078333
+      LimbGameOutsideSpritesDark1_22: 41404451
+      LimbGameOutsideSpritesDark1_31: -278218444
+      LimbGameOutsideSpritesDark1_34: 893366859
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
