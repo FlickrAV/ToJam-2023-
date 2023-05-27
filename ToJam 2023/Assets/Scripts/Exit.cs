@@ -7,6 +7,7 @@ public class Exit : MonoBehaviour
 {
     [SerializeField] private GameObject exitLock;
     [SerializeField] private GameObject exitLockDark;
+
     private void OnTriggerEnter2D(Collider2D other) 
     {   
         if(other.name == "Player")
@@ -17,7 +18,14 @@ public class Exit : MonoBehaviour
 
     public void DestroyLock()
     {
-        Destroy(exitLock);
-        Destroy(exitLockDark);
+        exitLock.SetActive(false);
+        exitLockDark.SetActive(false);
+    }
+
+    public void RespawnLock()
+    {
+        Debug.Log("Respawn Exit!");
+        exitLock.SetActive(true);
+        exitLockDark.SetActive(true);
     }
 }

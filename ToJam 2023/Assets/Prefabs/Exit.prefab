@@ -214,6 +214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   exitLock: {fileID: 2977559113935640363}
   exitLockDark: {fileID: 3741776818380242000}
+  RespawnExitLock: {fileID: 2977559113935640363}
+  RespawnExitLockDark: {fileID: 3741776818380242000}
 --- !u!61 &2977559114765477923
 BoxCollider2D:
   m_ObjectHideFlags: 0
