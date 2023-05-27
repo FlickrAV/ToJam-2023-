@@ -6,6 +6,7 @@ public class Button : MonoBehaviour
 {
     [SerializeField] private GameObject[] objectsToCall;
     [SerializeField] private string[] functionsToCall;
+    private bool inRange = false;
 
     private void ButtonPressed()
     {
@@ -15,14 +16,27 @@ public class Button : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other) 
-    {   
-        if(other.name == "Player")
-        {
-            if(Input.GetButtonDown("Interact"))
+    private void Update() 
+    {
+        if(Input.GetButtonDown("Interact") && inRange)
             {
                 ButtonPressed();
-            }
+            }    
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.name == "Player")
+        {
+            inRange = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other) 
+    {
+        if(other.name == "Player")
+        {
+            inRange = false;
         }
     }
 }
