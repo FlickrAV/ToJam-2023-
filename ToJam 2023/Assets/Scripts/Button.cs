@@ -17,10 +17,11 @@ public class Button : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other) 
     {   
-        if(other.name == "Player")
+        if(other.name == "Interact Range")
         {
             if(Input.GetButtonDown("Interact"))
             {
+                Debug.Log("wah!");
                 ButtonPressed();
             }
         }
