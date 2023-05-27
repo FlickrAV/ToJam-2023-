@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8439734380191971848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8439734380191971850}
+  - component: {fileID: 8439734380191971851}
+  m_Layer: 0
+  m_Name: Limb Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8439734380191971850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439734380191971848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -346.1207, y: 244.05048, z: 0.19596457}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8439734380191971851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439734380191971848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a19303191be4d4fb3c24370a440e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limbs:
+  - {fileID: 1889949020202090174, guid: 697ccd173c92ef04dbe64c95dd585e4b, type: 3}
+  - {fileID: 2772923440897343018, guid: 2ec8b5763a0ef854fb7b761dfdf3323e, type: 3}
+  - {fileID: 8115472445754246039, guid: 28c207f51525a3144b2acc664edf75d0, type: 3}
+  - {fileID: 6466884077047065823, guid: 449d1100d3658c74994e6ad47b5b82c5, type: 3}
+  - {fileID: 8501627301320013944, guid: 1bc059c51bac2d149af3d117c04f4ef6, type: 3}
+  - {fileID: 6385415290652998293, guid: d3c1807f43f914942b342c52af4cad58, type: 3}
+  menuButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  limbSpawnPosition: {fileID: 0}
+  playerScript: {fileID: 0}
+  limbDetatchMenu: {fileID: 0}
+  throwDestinationIcon: {fileID: 0}
+  playerVisionSquare: {fileID: 0}
+  inThrowMode: 0
+  inDropMode: 1
