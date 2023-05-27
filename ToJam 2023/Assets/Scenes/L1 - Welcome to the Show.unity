@@ -13193,11 +13193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13287,7 +13287,8 @@ PrefabInstance:
       propertyPath: limbStateScript
       value: 
       objectReference: {fileID: 1948594096}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7971919083307690871, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
 --- !u!1 &981544336 stripped
 GameObject:
