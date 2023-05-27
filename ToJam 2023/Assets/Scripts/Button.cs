@@ -35,6 +35,7 @@ public class Button : MonoBehaviour
         {
             objectsToCall[i].SendMessage(functionsToCall[i]);
             isPressed = true;
+            Debug.Log(isPressed);
         }
     }
 
@@ -49,10 +50,11 @@ public class Button : MonoBehaviour
 
     private void OnMouseDown() 
     {
-        if(interactableScript.InRange())    
+        if(interactableScript.InRange() && !isPressed)    
         {
             if(interactableScript.limbCanInteract)
             {
+                Debug.Log("if you see this you've done something wrong (button code)");
                 interactableScript.limbsUsed += 1;
                 if(interactableScript.limbsUsed == interactableScript.arms || interactableScript.limbsUsed == interactableScript.legs)
                 {
@@ -63,7 +65,6 @@ public class Button : MonoBehaviour
             }
             else if(interactableScript.PlayerInteractionCheck())
             {
-                Debug.Log("wah");
                 ButtonPressed();
             }
         }
