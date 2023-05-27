@@ -38,6 +38,7 @@ public class Button : MonoBehaviour
             }
             else if(interactableScript.PlayerInteractionCheck())
             {
+                Debug.Log("wah");
                 ButtonPressed();
             }
         }

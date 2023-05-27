@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Exit : MonoBehaviour
 {
     [SerializeField] private GameObject exitLock;
+    [SerializeField] private GameObject exitLockDark;
     private void OnTriggerEnter2D(Collider2D other) 
     {   
         if(other.name == "Player")
@@ -17,5 +18,6 @@ public class Exit : MonoBehaviour
     public void DestroyLock()
     {
         Destroy(exitLock);
+        Destroy(exitLockDark);
     }
 }
