@@ -19,9 +19,10 @@ public class Button : MonoBehaviour
     {   
         if(other.name == "Interact Range")
         {
-            if(Input.GetButtonDown("Interact"))
+            Debug.Log("wah");
+            if (Input.GetButtonDown("Interact"))
             {
-                Debug.Log("wah!");
+                Debug.Log("wah");
                 ButtonPressed();
             }
         }
