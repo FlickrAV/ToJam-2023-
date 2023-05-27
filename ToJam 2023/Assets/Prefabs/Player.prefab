@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 3663188187356832383}
   - component: {fileID: 3663188187356832380}
   m_Layer: 0
-  m_Name: Throw Location
+  m_Name: Throw Destination
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
