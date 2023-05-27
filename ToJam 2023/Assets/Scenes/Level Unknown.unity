@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 196884398}
   - component: {fileID: 196884397}
   m_Layer: 0
-  m_Name: Lever placeholder
+  m_Name: Lever Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,7 +210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196884396}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071065, w: 0.7071071}
-  m_LocalPosition: {x: -5.97, y: -3.47, z: 0}
+  m_LocalPosition: {x: -6, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12598,7 +12598,7 @@ GameObject:
   - component: {fileID: 609842069}
   - component: {fileID: 609842068}
   m_Layer: 0
-  m_Name: Regenerator Place Holder
+  m_Name: Regenerator Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12994,7 +12994,7 @@ GameObject:
   - component: {fileID: 1875935610}
   - component: {fileID: 1875935609}
   m_Layer: 0
-  m_Name: Electrical Field Place Holder
+  m_Name: Electrical Field Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
