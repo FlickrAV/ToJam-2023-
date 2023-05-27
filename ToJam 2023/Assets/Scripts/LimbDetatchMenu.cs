@@ -51,12 +51,12 @@ public class LimbDetatchMenu : MonoBehaviour
         hasLeftLeg= hasLimb[5];
 
         //opens the limb menu when the E key is pressed if the menu is not already open
-        if (Input.GetKeyDown(KeyCode.E) && !limbDetatchMenu.activeSelf)
+        if (Input.GetButtonDown("Limb Menu") && !limbDetatchMenu.activeSelf)
         {
             limbDetatchMenu.SetActive(true);
         }
         //closes the limb meny when the E key is pressed if the menu is already open
-        else if (Input.GetKeyDown(KeyCode.E) && limbDetatchMenu.activeSelf)
+        else if (Input.GetButtonDown("Limb Menu") && limbDetatchMenu.activeSelf)
         {
             limbDetatchMenu.SetActive(false);
         }
@@ -89,11 +89,11 @@ public class LimbDetatchMenu : MonoBehaviour
             {
                 inThrowMode = false;
             }
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetButtonDown("Limb Menu"))
             {
                 inThrowMode = false;
             }
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetButtonDown("Cancel"))
             {
                 inThrowMode = false;
             }
@@ -127,11 +127,11 @@ public class LimbDetatchMenu : MonoBehaviour
             {
                 inDropMode = false;
             }
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetButtonDown("Limb Menu"))
             {
                 inDropMode = false;
             }
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetButtonDown("Cancel"))
             {
                 inDropMode = false;
             }
