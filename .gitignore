@@ -73,5 +73,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
+=======
+ToJam 2023/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+>>>>>>> levels
