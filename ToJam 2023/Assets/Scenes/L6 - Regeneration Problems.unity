@@ -288,6 +288,22 @@ PrefabInstance:
       propertyPath: functionsToCall.Array.data[0]
       value: Add
       objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: objectsToCallOnDepress.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: functionsToCallOnDepress.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: objectsToCallOnDepress.Array.data[0]
+      value: 
+      objectReference: {fileID: 635813338}
+    - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: functionsToCallOnDepress.Array.data[0]
+      value: Subtract
+      objectReference: {fileID: 0}
     - target: {fileID: 6064744471171724255, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: legs
       value: 1
@@ -16247,6 +16263,22 @@ PrefabInstance:
       propertyPath: functionsToCall.Array.data[0]
       value: Add
       objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: objectsToCallOnDepress.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: functionsToCallOnDepress.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: objectsToCallOnDepress.Array.data[0]
+      value: 
+      objectReference: {fileID: 635813338}
+    - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: functionsToCallOnDepress.Array.data[0]
+      value: Subtract
+      objectReference: {fileID: 0}
     - target: {fileID: 6064744471171724255, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: arms
       value: 1
@@ -16397,12 +16429,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4768666896625249552, guid: 272e4b66485beb04c857260b3dc38cc0, type: 3}
+      propertyPath: objectsToCallOnLeaveMax.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768666896625249552, guid: 272e4b66485beb04c857260b3dc38cc0, type: 3}
       propertyPath: objectsToCallOnHitMax.Array.data[0]
       value: 
       objectReference: {fileID: 2104745473}
     - target: {fileID: 4768666896625249552, guid: 272e4b66485beb04c857260b3dc38cc0, type: 3}
+      propertyPath: functionsToCallOnLeaveMax.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768666896625249552, guid: 272e4b66485beb04c857260b3dc38cc0, type: 3}
       propertyPath: functionsToCallOnHitMax.Array.data[0]
       value: DestroyLock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768666896625249552, guid: 272e4b66485beb04c857260b3dc38cc0, type: 3}
+      propertyPath: objectsToCallOnLeaveMax.Array.data[0]
+      value: 
+      objectReference: {fileID: 2104745473}
+    - target: {fileID: 4768666896625249552, guid: 272e4b66485beb04c857260b3dc38cc0, type: 3}
+      propertyPath: functionsToCallOnLeaveMax.Array.data[0]
+      value: RespawnLock
       objectReference: {fileID: 0}
     - target: {fileID: 8543074492617434502, guid: 272e4b66485beb04c857260b3dc38cc0, type: 3}
       propertyPath: m_Name
