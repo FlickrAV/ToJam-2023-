@@ -37,8 +37,6 @@ public class PlayerMovement : MonoBehaviour
             Vector2 startPosition = movePoint.position;
             float angle = Mathf.Atan2(targetPosition.y - startPosition.y, targetPosition.x - startPosition.x);
 
-            Debug.Log(angle);
-
             canMove = true;
             if (canMove)
             {
