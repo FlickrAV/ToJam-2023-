@@ -106,6 +106,8 @@ MonoBehaviour:
   functionsToCall:
   - 
   - 
+  objectsToCallOnDepress: []
+  functionsToCallOnDepress: []
 --- !u!114 &6064744471171724255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +127,8 @@ MonoBehaviour:
   arms: 0
   legs: 0
   limbCanInteract: 0
+  limbScript: {fileID: 0}
+  limbsUsed: 0
 --- !u!61 &1813566931064670151
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -149,7 +153,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &6123544071528560033
 GameObject:

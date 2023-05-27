@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
                         canMove = false;
                     }
                 }
-                if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1)
+                else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1)
                 {
                     //teleports the direction indicator to the position of the player and then puts it one tile infront of it in the direction that the player is facing
                     directionIndicator.position = transform.position;
