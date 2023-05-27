@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -862,7 +862,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       LimbGameOutsideSpritesDark1_30: -1494192687
-      LimbGameOutsideSpritesDark1_34: 893366859
+      LimbGameOutsideSpritesDark1_32: 578478891
       LimbGameOutsideSpritesDark1_1: -1655414310
       LimbGameOutsideSpritesDark1_23: 2134976865
       LimbGameOutsideSpritesDark1_5: 1870172783
@@ -895,7 +895,7 @@ TextureImporter:
       LimbGameOutsideSpritesDark1_24: -461078333
       LimbGameOutsideSpritesDark1_22: 41404451
       LimbGameOutsideSpritesDark1_31: -278218444
-      LimbGameOutsideSpritesDark1_32: 578478891
+      LimbGameOutsideSpritesDark1_34: 893366859
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

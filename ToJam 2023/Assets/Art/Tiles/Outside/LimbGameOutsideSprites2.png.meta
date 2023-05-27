@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4930b2929c680774aa0fa566065995cf
+guid: 12b411d8f91d7b642800b03bb6a0c0eb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_0
+      name: LimbGameOutsideSprites2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af5728bc59cd8174f85d35c6b93ff351
-      internalID: -1951619841
+      spriteID: 5596c3dfe39c01941908398586c3d80d
+      internalID: 360869090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_1
+      name: LimbGameOutsideSprites2_1
       rect:
         serializedVersion: 2
         x: 272
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 462d28c9fed663c449a4080a73a813fb
-      internalID: 94318104
+      spriteID: ffb2945198f83374fa4995146b18c6e7
+      internalID: 2119552335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_2
+      name: LimbGameOutsideSprites2_2
       rect:
         serializedVersion: 2
         x: 544
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 432557e508f6ca54f9a21895be57c082
-      internalID: 701209508
+      spriteID: 8bcb78d521ddf624abb4ec604c80a631
+      internalID: 159759324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_3
+      name: LimbGameOutsideSprites2_3
       rect:
         serializedVersion: 2
         x: 816
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aadde633c5696ef4bbe98f93a3338b86
-      internalID: -1199766013
+      spriteID: f17eeb2ce087779438ed6467d831736d
+      internalID: 2023982527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_4
+      name: LimbGameOutsideSprites2_4
       rect:
         serializedVersion: 2
         x: 1088
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 661806fa7ad64164bbdf99b447a749a5
-      internalID: 311109634
+      spriteID: 65a6450d9bf27b14da7c6fcf138d23a0
+      internalID: -2121480785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_5
+      name: LimbGameOutsideSprites2_5
       rect:
         serializedVersion: 2
         x: 1360
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 432e09f1040a5d447940345fb39e572b
-      internalID: -2099612004
+      spriteID: ab18e0c44ce4ba44b992e26b7176c64b
+      internalID: 535789814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_6
+      name: LimbGameOutsideSprites2_6
       rect:
         serializedVersion: 2
         x: 1632
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec6b57dbf515dbc4cb0529159beb855e
-      internalID: -467578836
+      spriteID: eadda697e78a43a4a8d56db40d97b473
+      internalID: 763750346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_7
+      name: LimbGameOutsideSprites2_7
       rect:
         serializedVersion: 2
         x: 0
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e57f74b7f9ef3354aba25879304ef2a9
-      internalID: -1556538832
+      spriteID: c55c1030fc6188d4f8f83d5f62a8a32c
+      internalID: -1530158258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_8
+      name: LimbGameOutsideSprites2_8
       rect:
         serializedVersion: 2
         x: 272
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7915e22e51dc3f943af4813a030d1aaa
-      internalID: 1938163569
+      spriteID: 8c4f618213a5e564c9ceac3e8b6c15bf
+      internalID: 899140285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_9
+      name: LimbGameOutsideSprites2_9
       rect:
         serializedVersion: 2
         x: 544
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f4f825b3aa60c74aa9d209d789201ba
-      internalID: -1070501510
+      spriteID: a3de151c4cd4a61459b4b88539108db7
+      internalID: -1877042628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_10
+      name: LimbGameOutsideSprites2_10
       rect:
         serializedVersion: 2
         x: 816
@@ -340,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b9386d154f0e8f4cbfa574c816f0a7f
-      internalID: -833602901
+      spriteID: c8c23400860b49448aea6dd99b601203
+      internalID: 1202807141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_11
+      name: LimbGameOutsideSprites2_11
       rect:
         serializedVersion: 2
         x: 1088
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c74cc4c65b04e4a41bec47e0213426a1
-      internalID: 1233759894
+      spriteID: b337f83bb8a9a98468bb325e42fc1fe1
+      internalID: 1599540318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_12
+      name: LimbGameOutsideSprites2_12
       rect:
         serializedVersion: 2
         x: 1360
@@ -382,14 +382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bda4c9d55ce14f948bde6cde1b748fa9
-      internalID: -1852339309
+      spriteID: aaf3e7ee8c1e3db47a8484d172c6f144
+      internalID: -374100826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_13
+      name: LimbGameOutsideSprites2_13
       rect:
         serializedVersion: 2
         x: 1632
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f094652ab18d764458cc5cc6d6ec2c4a
-      internalID: -1231518156
+      spriteID: d1bf95a5704de534d9f77f288c9cdccf
+      internalID: 776793207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_14
+      name: LimbGameOutsideSprites2_14
       rect:
         serializedVersion: 2
         x: 0
@@ -424,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cace86eab80b8a545b756cfe3afce626
-      internalID: -1395740091
+      spriteID: b42204fca1c93d34e9802997aabdc5a4
+      internalID: 566386729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_15
+      name: LimbGameOutsideSprites2_15
       rect:
         serializedVersion: 2
         x: 272
@@ -445,14 +445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42c80c440a5bbd943bfc688d579610b3
-      internalID: -529386082
+      spriteID: 6467f35af75d21249b9e8d3739ca571b
+      internalID: -572751961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_16
+      name: LimbGameOutsideSprites2_16
       rect:
         serializedVersion: 2
         x: 544
@@ -466,14 +466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a9854073bbddd43b8acd83e13c8f44
-      internalID: 1985018732
+      spriteID: 54f35eba1f6be16469cf1198b7b03499
+      internalID: 812059157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_17
+      name: LimbGameOutsideSprites2_17
       rect:
         serializedVersion: 2
         x: 816
@@ -487,14 +487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6969dcc56e5c7b448ab6e8901cc1974
-      internalID: -2005427054
+      spriteID: 0c69a581a89b0d745870f345665dfdfc
+      internalID: -1667459971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_18
+      name: LimbGameOutsideSprites2_18
       rect:
         serializedVersion: 2
         x: 1088
@@ -508,14 +508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f7fcd0601fc804bbfe19eb9cd4d602
-      internalID: 534159969
+      spriteID: ac5412151ac65f046a5e48ae3022d555
+      internalID: -285132114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_19
+      name: LimbGameOutsideSprites2_19
       rect:
         serializedVersion: 2
         x: 1360
@@ -529,14 +529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10adecdb8693ef247b4ef930af7afc89
-      internalID: -1707420
+      spriteID: 41742be37b264164cb16aea0ad82b79b
+      internalID: -479586699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_20
+      name: LimbGameOutsideSprites2_20
       rect:
         serializedVersion: 2
         x: 1632
@@ -550,14 +550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d3b99597d7d259429ed0ff6fa374d6e
-      internalID: 561914431
+      spriteID: 6f9de2afbb374ca4aa0caf33960878d5
+      internalID: 644585670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_21
+      name: LimbGameOutsideSprites2_21
       rect:
         serializedVersion: 2
         x: 0
@@ -571,14 +571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b44343385485fbf4fb683bfe2b42dd16
-      internalID: 1544238891
+      spriteID: 2dfeb740a6d6b1b40949675811a6e614
+      internalID: -635828223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_22
+      name: LimbGameOutsideSprites2_22
       rect:
         serializedVersion: 2
         x: 272
@@ -592,14 +592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f47b91504f353ce4faa511ca995c7658
-      internalID: 1906677325
+      spriteID: 8574cce0ed56a5d4e9f846df0f4a2911
+      internalID: 1672827072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_23
+      name: LimbGameOutsideSprites2_23
       rect:
         serializedVersion: 2
         x: 544
@@ -613,14 +613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5af269154b59b764ba70a3b732bda838
-      internalID: 858482961
+      spriteID: bbc3b7f1963027147b4124c392f500b0
+      internalID: -640270660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_24
+      name: LimbGameOutsideSprites2_24
       rect:
         serializedVersion: 2
         x: 816
@@ -634,14 +634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98c2a83ea8f61b4478e6bd0b8c2d4c0d
-      internalID: -1654024020
+      spriteID: 0616790d51677ec46879c7cee003e955
+      internalID: -251484795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_25
+      name: LimbGameOutsideSprites2_25
       rect:
         serializedVersion: 2
         x: 1088
@@ -655,14 +655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 526a21d7715d90749b87aca63f78f030
-      internalID: 107053544
+      spriteID: 4ce5112845ba72748ab08f8b364d44f8
+      internalID: -1757980789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_26
+      name: LimbGameOutsideSprites2_26
       rect:
         serializedVersion: 2
         x: 1360
@@ -676,14 +676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1f451b200935d644b5992adff391436
-      internalID: -1238990524
+      spriteID: 1298a90d7dc6cf248822880dfbc99fc8
+      internalID: -383076787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_27
+      name: LimbGameOutsideSprites2_27
       rect:
         serializedVersion: 2
         x: 1632
@@ -697,14 +697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85edaf79ac9b76b4ea5e51c53aaa697d
-      internalID: -1514169609
+      spriteID: 46040cace36f36c40b3eba4be255245e
+      internalID: -143564220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_28
+      name: LimbGameOutsideSprites2_28
       rect:
         serializedVersion: 2
         x: 0
@@ -718,14 +718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58bfb71c95b903949b20fd41f7c30011
-      internalID: -403035790
+      spriteID: 4e38f34269936614a8bbeb533c1b5b75
+      internalID: -1450905709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_29
+      name: LimbGameOutsideSprites2_29
       rect:
         serializedVersion: 2
         x: 272
@@ -739,14 +739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3d3411a70cfc26439951e1489e98827
-      internalID: -638455490
+      spriteID: 11f4ec90ef5bc5949a75c645286ad073
+      internalID: -2103326956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_30
+      name: LimbGameOutsideSprites2_30
       rect:
         serializedVersion: 2
         x: 544
@@ -760,14 +760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9284df5c133c1074aae2503d90ba6fe1
-      internalID: 1369898735
+      spriteID: 1231ba9d70d3b0749b0bf2a05110db64
+      internalID: -557507254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_31
+      name: LimbGameOutsideSprites2_31
       rect:
         serializedVersion: 2
         x: 816
@@ -781,14 +781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2873e7f2aabb0c740ba5cafd4fa14e77
-      internalID: -898683340
+      spriteID: 232af39b364f8684398fbd9b324d7bdb
+      internalID: -1776427219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_32
+      name: LimbGameOutsideSprites2_32
       rect:
         serializedVersion: 2
         x: 1088
@@ -802,14 +802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf595f5a07f219d49afb4f891cd8ff06
-      internalID: 642097312
+      spriteID: 5c305508c6889e74099cc6595811c021
+      internalID: 1690989888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_33
+      name: LimbGameOutsideSprites2_33
       rect:
         serializedVersion: 2
         x: 1360
@@ -823,14 +823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26ce5ccb5b9d95543b72ec73e836a427
-      internalID: 693586686
+      spriteID: 16eaf6fb573a42945bcff6021edbc288
+      internalID: -867294392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameOutsideSprites_34
+      name: LimbGameOutsideSprites2_34
       rect:
         serializedVersion: 2
         x: 1632
@@ -844,8 +844,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e936b9888ad4f469016d5a6eae9bd2
-      internalID: -687819183
+      spriteID: 462776b90158d4d4486caf6e25dbb189
+      internalID: 836275618
       vertices: []
       indices: 
       edges: []
@@ -861,41 +861,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LimbGameOutsideSprites_9: -1070501510
-      LimbGameOutsideSprites_20: 561914431
-      LimbGameOutsideSprites_11: 1233759894
-      LimbGameOutsideSprites_13: -1231518156
-      LimbGameOutsideSprites_31: -898683340
-      LimbGameOutsideSprites_32: 642097312
-      LimbGameOutsideSprites_17: -2005427054
-      LimbGameOutsideSprites_18: 534159969
-      LimbGameOutsideSprites_26: -1238990524
-      LimbGameOutsideSprites_34: -687819183
-      LimbGameOutsideSprites_7: -1556538832
-      LimbGameOutsideSprites_22: 1906677325
-      LimbGameOutsideSprites_10: -833602901
-      LimbGameOutsideSprites_14: -1395740091
-      LimbGameOutsideSprites_28: -403035790
-      LimbGameOutsideSprites_3: -1199766013
-      LimbGameOutsideSprites_19: -1707420
-      LimbGameOutsideSprites_23: 858482961
-      LimbGameOutsideSprites_24: -1654024020
-      LimbGameOutsideSprites_2: 701209508
-      LimbGameOutsideSprites_5: -2099612004
-      LimbGameOutsideSprites_16: 1985018732
-      LimbGameOutsideSprites_27: -1514169609
-      LimbGameOutsideSprites_8: 1938163569
-      LimbGameOutsideSprites_0: -1951619841
-      LimbGameOutsideSprites_1: 94318104
-      LimbGameOutsideSprites_33: 693586686
-      LimbGameOutsideSprites_30: 1369898735
-      LimbGameOutsideSprites_21: 1544238891
-      LimbGameOutsideSprites_29: -638455490
-      LimbGameOutsideSprites_6: -467578836
-      LimbGameOutsideSprites_4: 311109634
-      LimbGameOutsideSprites_15: -529386082
-      LimbGameOutsideSprites_25: 107053544
-      LimbGameOutsideSprites_12: -1852339309
+      LimbGameOutsideSprites2_27: -143564220
+      LimbGameOutsideSprites2_11: 1599540318
+      LimbGameOutsideSprites2_29: -2103326956
+      LimbGameOutsideSprites2_1: 2119552335
+      LimbGameOutsideSprites2_12: -374100826
+      LimbGameOutsideSprites2_5: 535789814
+      LimbGameOutsideSprites2_9: -1877042628
+      LimbGameOutsideSprites2_13: 776793207
+      LimbGameOutsideSprites2_31: -1776427219
+      LimbGameOutsideSprites2_33: -867294392
+      LimbGameOutsideSprites2_30: -557507254
+      LimbGameOutsideSprites2_2: 159759324
+      LimbGameOutsideSprites2_7: -1530158258
+      LimbGameOutsideSprites2_18: -285132114
+      LimbGameOutsideSprites2_22: 1672827072
+      LimbGameOutsideSprites2_17: -1667459971
+      LimbGameOutsideSprites2_14: 566386729
+      LimbGameOutsideSprites2_20: 644585670
+      LimbGameOutsideSprites2_28: -1450905709
+      LimbGameOutsideSprites2_32: 1690989888
+      LimbGameOutsideSprites2_0: 360869090
+      LimbGameOutsideSprites2_25: -1757980789
+      LimbGameOutsideSprites2_19: -479586699
+      LimbGameOutsideSprites2_24: -251484795
+      LimbGameOutsideSprites2_3: 2023982527
+      LimbGameOutsideSprites2_15: -572751961
+      LimbGameOutsideSprites2_34: 836275618
+      LimbGameOutsideSprites2_23: -640270660
+      LimbGameOutsideSprites2_16: 812059157
+      LimbGameOutsideSprites2_6: 763750346
+      LimbGameOutsideSprites2_26: -383076787
+      LimbGameOutsideSprites2_21: -635828223
+      LimbGameOutsideSprites2_4: -2121480785
+      LimbGameOutsideSprites2_10: 1202807141
+      LimbGameOutsideSprites2_8: 899140285
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
