@@ -6,38 +6,41 @@ public class Button : MonoBehaviour
 {
     [SerializeField] private GameObject[] objectsToCall;
     [SerializeField] private string[] functionsToCall;
-    private bool inRange = false;
+    private Interactable interactableScript;
 
-    private void ButtonPressed()
+    private void Start() 
+    {
+        interactableScript = GetComponent<Interactable>();
+    }
+
+
+    public void ButtonPressed()
     {
         for(int i = 0; i < objectsToCall.Length;i++)
         {
             objectsToCall[i].SendMessage(functionsToCall[i]);
         }
-    }
-    
-    private void Update() 
+    }   
+
+    private void OnMouseDown() 
     {
-        if(Input.GetButtonDown("Interact") && inRange)
+        if(interactableScript.InRange())    
+        {
+            if(interactableScript.limbCanInteract)
+            {
+                interactableScript.limbsUsed += 1;
+                if(interactableScript.limbsUsed == interactableScript.arms || interactableScript.limbsUsed == interactableScript.legs)
+                {
+                    ButtonPressed();
+                    interactableScript.limbScript.isUsed = true;
+                    interactableScript.limbScript.gameObject.transform.position = Vector3.MoveTowards(interactableScript.limbScript.gameObject.transform.position, transform.position, 5);
+                }
+            }
+            else if(interactableScript.PlayerInteractionCheck())
             {
                 Debug.Log("wah");
                 ButtonPressed();
-            }    
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) 
-    {
-        if(other.name == "Player")
-        {
-            inRange = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other) 
-    {
-        if(other.name == "Player")
-        {
-            inRange = false;
+            }
         }
     }
 }

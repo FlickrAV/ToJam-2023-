@@ -17,13 +17,13 @@ public class LimbDetatchMenu : MonoBehaviour
 
     [HideInInspector] public bool inThrowMode, inDropMode;
 
-    private bool[] hasLimb = new bool[6];
+    [HideInInspector] public bool[] hasLimb = new bool[6];
 
-    private bool hasRightEye, hasLeftEye, hasRightArm, hasLeftArm, hasRightLeg, hasLeftLeg = true;
+    [HideInInspector]public bool hasRightEye, hasLeftEye, hasRightArm, hasLeftArm, hasRightLeg, hasLeftLeg = true;
 
-    private bool hasArms = true;
-    private bool hasLegs = true;
-    private bool hasEyes = true;
+    [HideInInspector]public bool hasArms = true;
+    [HideInInspector]public bool hasLegs = true;
+    [HideInInspector]public bool hasEyes = true;
 
     private int currentLimb = 0;
 

@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 1813566931064670148}
   - component: {fileID: 1813566931064670149}
   - component: {fileID: 1813566931064670150}
+  - component: {fileID: 6064744471171724255}
   - component: {fileID: 1813566931064670151}
   m_Layer: 0
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,6 +106,25 @@ MonoBehaviour:
   functionsToCall:
   - 
   - 
+--- !u!114 &6064744471171724255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813566931064670146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45381ffef8b1a584084c0cd4a5a20867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableColor: {r: 0, g: 0, b: 0, a: 0}
+  selectedColor: {r: 0, g: 0, b: 0, a: 0}
+  limbStateScript: {fileID: 0}
+  thingsInRange: 0
+  arms: 0
+  legs: 0
+  limbCanInteract: 0
 --- !u!61 &1813566931064670151
 BoxCollider2D:
   m_ObjectHideFlags: 0

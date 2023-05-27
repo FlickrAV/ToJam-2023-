@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ff044e5154afb97428271681d519db31
+guid: 0b852fbdc76058c43a16144a1f5ae58e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1000
+  spritePixelsToUnits: 900
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: All Limbs_0
+      name: Walk Up All Limbs_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 625
-        height: 1080
+        x: 15
+        y: 108
+        width: 611
+        height: 921
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29287358cc93b714c97676678ea29121
-      internalID: 36057762
+      spriteID: b281b4be938c55743b508bbd4d4871b6
+      internalID: 1370739741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Limbs_1
+      name: Walk Up All Limbs_1
       rect:
         serializedVersion: 2
-        x: 625
-        y: 0
-        width: 625
-        height: 1080
+        x: 346
+        y: 105
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a757a9612a2a224d8e61c8e84ff4fb8
-      internalID: 930120207
+      spriteID: cb905d6dc5a766f4c8e180e8b0e7c5ad
+      internalID: -292840601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Limbs_2
+      name: Walk Up All Limbs_2
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 0
-        width: 625
-        height: 1080
+        x: 637
+        y: 107
+        width: 595
+        height: 910
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3057e06557aa8644ead73215fb04cbe6
-      internalID: -1066014837
+      spriteID: 90f3883ff8d0c4047a36e1a2cf8c7c44
+      internalID: 1524146413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Limbs_3
+      name: Walk Up All Limbs_3
       rect:
         serializedVersion: 2
-        x: 1875
-        y: 0
-        width: 625
-        height: 1080
+        x: 896
+        y: 104
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73917e5faaf93e543a618198988976fe
-      internalID: 1084989311
+      spriteID: 1dd5d67654179d54192c972739d1fa7b
+      internalID: -853407034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Up All Limbs_4
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 108
+        width: 609
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d335ec7fa6b1a0489894d96c467961d
+      internalID: 358438974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Up All Limbs_5
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 105
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d660d459aeecb8844b79a0bf18cfb927
+      internalID: -335559914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Up All Limbs_6
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 108
+        width: 582
+        height: 909
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a2ef543b1a5174cabdf999b3d981b6
+      internalID: -328332129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Up All Limbs_7
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 105
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcaefe2a93181a42b5dcf678d3a940b
+      internalID: -763413975
       vertices: []
       indices: 
       edges: []
@@ -210,10 +294,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      All Limbs_2: -1066014837
-      All Limbs_3: 1084989311
-      All Limbs_1: 930120207
-      All Limbs_0: 36057762
+      Walk Up All Limbs_2: 1524146413
+      Walk Up All Limbs_7: -763413975
+      Walk Up All Limbs_4: 358438974
+      Walk Up All Limbs_5: -335559914
+      Walk Up All Limbs_3: -853407034
+      Walk Up All Limbs_0: 1370739741
+      Walk Up All Limbs_6: -328332129
+      Walk Up All Limbs_1: -292840601
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
