@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Limb
   - Interactable
+  - Vision Square
+  - Eye Vision Square
+  - Collisions
   layers:
   - Default
   - TransparentFX
