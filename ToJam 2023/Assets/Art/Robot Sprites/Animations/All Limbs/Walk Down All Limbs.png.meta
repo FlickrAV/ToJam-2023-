@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ff044e5154afb97428271681d519db31
+guid: 9a4c41e2e5baa9a468b285aa171c0463
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1000
+  spritePixelsToUnits: 900
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: All Limbs_0
+      name: Walk Down All Limbs_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 625
-        height: 1080
+        x: 15
+        y: 106
+        width: 610
+        height: 922
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29287358cc93b714c97676678ea29121
-      internalID: 36057762
+      spriteID: d67036ea238ca774a95aee15d0328fc2
+      internalID: 1552674348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Limbs_1
+      name: Walk Down All Limbs_1
       rect:
         serializedVersion: 2
-        x: 625
-        y: 0
-        width: 625
-        height: 1080
+        x: 288
+        y: 104
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a757a9612a2a224d8e61c8e84ff4fb8
-      internalID: 930120207
+      spriteID: 18fcdede977518447b6004dbfc6aeed2
+      internalID: 882140024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Limbs_2
+      name: Walk Down All Limbs_2
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 0
-        width: 625
-        height: 1080
+        x: 658
+        y: 106
+        width: 553
+        height: 904
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3057e06557aa8644ead73215fb04cbe6
-      internalID: -1066014837
+      spriteID: f1159e92aa108094fb3994a67ebf196d
+      internalID: 942021493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All Limbs_3
+      name: Walk Down All Limbs_3
       rect:
         serializedVersion: 2
-        x: 1875
-        y: 0
-        width: 625
-        height: 1080
+        x: 900
+        y: 104
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73917e5faaf93e543a618198988976fe
-      internalID: 1084989311
+      spriteID: 7b78fc63240d9f240a30f97444865580
+      internalID: -1220116715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down All Limbs_4
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 106
+        width: 614
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a0c479fec96ea4eab5fb92da72b0f3
+      internalID: 2127223307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down All Limbs_5
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 104
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443939c4263db144c94bb7d1692f4ba1
+      internalID: 1851654156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down All Limbs_6
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 106
+        width: 551
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4899488fa7bd81241be2f49a5633d3ee
+      internalID: 2083169534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Down All Limbs_7
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 104
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1723a6eb13e3bf84e84a54897332122c
+      internalID: -1946389539
       vertices: []
       indices: 
       edges: []
@@ -210,10 +294,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      All Limbs_2: -1066014837
-      All Limbs_3: 1084989311
-      All Limbs_1: 930120207
-      All Limbs_0: 36057762
+      Walk Down All Limbs_6: 2083169534
+      Walk Down All Limbs_4: 2127223307
+      Walk Down All Limbs_1: 882140024
+      Walk Down All Limbs_0: 1552674348
+      Walk Down All Limbs_7: -1946389539
+      Walk Down All Limbs_2: 942021493
+      Walk Down All Limbs_5: 1851654156
+      Walk Down All Limbs_3: -1220116715
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
