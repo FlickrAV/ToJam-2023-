@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private Transform movePoint;
     private Transform directionIndicator;
 
+    private LimbDetatchMenu limbMenuScript;
+
     public bool canMove = true;
 
     // Start is called before the first frame update
@@ -18,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
         directionIndicator = gameObject.transform.Find("Direction Indicator");
         movePoint.parent = null;
         directionIndicator.parent = null;
+
+        limbMenuScript = GameObject.Find("Limb Manager").gameObject.GetComponent<LimbDetatchMenu>();
     }
 
     // Update is called once per frame
@@ -68,11 +72,14 @@ public class PlayerMovement : MonoBehaviour
                 }
                 if (Input.GetButtonDown("Jump"))
                 {
-                    if (!Physics2D.OverlapCircle(new Vector3(Mathf.Floor(movePoint.position.x + Mathf.Sin(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f, Mathf.Floor(movePoint.position.y + Mathf.Cos(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f, 0), 0.2f, colliderLayer))
+                    if (limbMenuScript.hasLegs)
                     {
-                        //moves the move point and the direction indicator two tiles in the direction that the player is facing
-                        movePoint.position = new Vector2(Mathf.Floor(movePoint.position.x + Mathf.Sin(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f, Mathf.Floor(movePoint.position.y + Mathf.Cos(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f);
-                        directionIndicator.position = new Vector2(Mathf.Floor(directionIndicator.position.x + Mathf.Sin(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f, Mathf.Floor(directionIndicator.position.y + Mathf.Cos(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f);
+                        if (!Physics2D.OverlapCircle(new Vector3(Mathf.Floor(movePoint.position.x + Mathf.Sin(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f, Mathf.Floor(movePoint.position.y + Mathf.Cos(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f, 0), 0.2f, colliderLayer))
+                        {
+                            //moves the move point and the direction indicator two tiles in the direction that the player is facing
+                            movePoint.position = new Vector2(Mathf.Floor(movePoint.position.x + Mathf.Sin(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f, Mathf.Floor(movePoint.position.y + Mathf.Cos(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f);
+                            directionIndicator.position = new Vector2(Mathf.Floor(directionIndicator.position.x + Mathf.Sin(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f, Mathf.Floor(directionIndicator.position.y + Mathf.Cos(-angle + Mathf.Deg2Rad * 90) * 2) + 0.5f);
+                    }
                     }
                 }
             }
