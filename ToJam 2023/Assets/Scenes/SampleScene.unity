@@ -321,6 +321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670146, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -365,6 +369,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670149, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670149, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.91283536
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813566931064670149, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670150, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: objectsToCall.Array.size
       value: 1
@@ -383,12 +399,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670151, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_Size.x
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670151, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_Size.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6064744471171724255, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: arms
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6064744471171724255, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+      propertyPath: limbStateScript
+      value: 
+      objectReference: {fileID: 284398354}
     - target: {fileID: 6123544071528560033, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -10761,14 +10785,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3663188186084377634, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
       propertyPath: m_Size.x
-      value: 0.5
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 3663188186084377634, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 3663188186084377694, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663188186084377694, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3663188187356832380, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
