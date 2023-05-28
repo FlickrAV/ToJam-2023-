@@ -38,6 +38,7 @@ public class Limb: MonoBehaviour
                 isInteracting = false;
             }
         }
+
     }
 
     private void OnMouseDown()
@@ -54,7 +55,8 @@ public class Limb: MonoBehaviour
                     interactable.limbCanInteract = interactable.InteractionCheck(this.gameObject);
                     interactable.limbScript = this;
                     interactable.Identify();
-                    interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+                    isUsed= true;
+                    //interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
                 }
             }
             else if (playerNearby)
@@ -75,6 +77,8 @@ public class Limb: MonoBehaviour
                 }
                 
                 interactedObject.limbsUsed -= 1;
+
+
             }
         }
         else if (playerNearby && !isInteracting)
@@ -93,6 +97,7 @@ public class Limb: MonoBehaviour
         if (other.tag == "Interactable")
         {
             interactables.Add(other.gameObject.GetComponent<Interactable>());
+
         }
         if (other.tag == "Body")
         {

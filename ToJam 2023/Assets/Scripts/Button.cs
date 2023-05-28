@@ -58,6 +58,8 @@ public class Button : MonoBehaviour
             spriteRenderDark.sprite = spriteOn;
             objectsToCall[i].SendMessage(functionsToCall[i]);
             isPressed = true;
+
+            Destroy(GameObject.Find("Location Selector(Clone)"));
         }
     }
 
