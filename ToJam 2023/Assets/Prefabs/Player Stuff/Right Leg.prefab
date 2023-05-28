@@ -149,3 +149,6 @@ MonoBehaviour:
   isUsed: 0
   isArm: 0
   isLeg: 1
+  playerNearby: 0
+  playerIsThrowable: 0
+  body: {fileID: 0}

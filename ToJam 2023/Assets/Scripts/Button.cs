@@ -23,12 +23,10 @@ public class Button : MonoBehaviour
     private void Start() 
     {
         interactableScript = GetComponent<Interactable>();
-        Debug.Log(interactableScript.InRange());
     }
 
     private void Update()
     {
-        Debug.Log(interactableScript.thingsInRange);
         if (interactableScript.playerInteract)
         {
             if (interactableScript.thingsInRange == 0 && isPressed)
@@ -60,7 +58,6 @@ public class Button : MonoBehaviour
             spriteRenderDark.sprite = spriteOn;
             objectsToCall[i].SendMessage(functionsToCall[i]);
             isPressed = true;
-            Debug.Log(isPressed);
         }
     }
 
@@ -68,7 +65,6 @@ public class Button : MonoBehaviour
     {
         for (int i = 0; i < objectsToCallOnDepress.Length; i++)
         {
-            Debug.Log("button is depressed :(");
             spriteRender.sprite = spriteOff;
             spriteRenderDark.sprite = spriteOff;
             objectsToCallOnDepress[i].SendMessage(functionsToCallOnDepress[i]);
@@ -87,7 +83,6 @@ public class Button : MonoBehaviour
                 {
                     if(interactableScript.armsInRange == interactableScript.arms)
                     {
-                        Debug.Log("Open the door");
                         interactableScript.playerCanInteract = false;
                         interactableScript.playerInteract = false;  
                         ButtonPressed();      
@@ -99,7 +94,6 @@ public class Button : MonoBehaviour
                 {
                     if (interactableScript.legsInRange == interactableScript.legs)
                     {
-                        Debug.Log("Open the door (but with a foot!)");
                         interactableScript.playerCanInteract = false;
                         interactableScript.playerInteract = false;    
                         ButtonPressed();
