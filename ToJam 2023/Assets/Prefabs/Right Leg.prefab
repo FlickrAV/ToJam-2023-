@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 118443161207565976}
   - component: {fileID: -860708413659182996}
   - component: {fileID: -2287319726194403734}
+  - component: {fileID: 2951963099800984447}
   m_Layer: 3
   m_Name: Right Leg
   m_TagString: Limb
@@ -133,3 +134,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2951963099800984447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8501627301320013944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368fa4a93e0ad364c81fbc34d0ed0efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsed: 0
+  isArm: 0
+  isLeg: 1
