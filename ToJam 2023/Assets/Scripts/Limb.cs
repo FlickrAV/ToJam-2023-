@@ -13,9 +13,15 @@ public class Limb: MonoBehaviour
     public bool isArm;
     public bool isLeg;
 
+    public GameObject locationSelectorIcon;
+
     [HideInInspector]public bool playerNearby = false;
     [HideInInspector] public bool playerIsThrowable = false;
     [HideInInspector] public ThrowBody body;
+
+    [HideInInspector] public bool interactableInRange = false;
+
+    private bool canUse; 
 
     private void Start()
     {
@@ -36,12 +42,15 @@ public class Limb: MonoBehaviour
                 isInteracting = false;
             }
         }
+
     }
 
     private void OnMouseDown()
     {
-        if (interactables.Capacity > 0 && !isInteracting)
+        if (interactableInRange && interactables.Capacity > 0 && !isInteracting && canUse)
         {
+            Instantiate(locationSelectorIcon);
+            
             isInteracting = true;
             if (!isUsed)
             {
@@ -50,10 +59,16 @@ public class Limb: MonoBehaviour
                     interactable.limbCanInteract = interactable.InteractionCheck(this.gameObject);
                     interactable.limbScript = this;
                     interactable.Identify();
-                    interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+                    isUsed= true;
+                    //interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+                }
+                if (playerNearby)
+                {
+                    Debug.Log("Select body to pick up or select and interactable");
+                    playerIsThrowable = true;
                 }
             }
-            else if (playerNearby)
+            /*else if (playerNearby)
             {
                 Debug.Log("Select body to pick up");
                 playerIsThrowable = true;
@@ -61,46 +76,58 @@ public class Limb: MonoBehaviour
             else if (!playerNearby)
             {
                 playerIsThrowable = false;
-            }
+            }*/
             else
             {
                 foreach (Interactable interactable in interactables)
                 {
                     interactable.limbScript = null;
-                    interactable.Deselect();
+                    //interactable.Deselect();
                 }
-                
-                interactedObject.limbsUsed -= 1;
+                isUsed = false;
+                //interactedObject.limbsUsed -= 1;
+
+
             }
         }
-        else if (playerNearby && !isInteracting)
+        if (!interactableInRange && playerNearby && !isInteracting)
         {
-            Debug.Log("Select body to pick up");
-            playerIsThrowable = true;
-        }
-        else if (!playerNearby)
-        {
-            playerIsThrowable = false;
+            if (!isUsed)
+            {
+                isInteracting = true;
+                Debug.Log("Select body to pick up");
+                playerIsThrowable = true;
+            }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.tag == "Vision Square")
+        {
+            canUse = true;
+        }
         if (other.tag == "Interactable")
         {
+            interactableInRange = true;
             interactables.Add(other.gameObject.GetComponent<Interactable>());
+
         }
         if (other.tag == "Body")
         {
-            Debug.Log("Body is ready to be picked up");
             playerNearby = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (other.tag == "Vision Square")
+        {
+            canUse = false;
+        }
         if (other.tag == "Interactable")
         {
+            interactableInRange = false;
             foreach (Interactable script in interactables)
             {
                 if (script == other.GetComponent<Interactable>())
@@ -112,8 +139,12 @@ public class Limb: MonoBehaviour
         }
         if (other.tag == "Body")
         {
-            Debug.Log("Body can no longer be picked up");
             playerNearby = false;
         }
     }
+
+    /*private void OnDestroy()
+    {
+        interactables.li
+    }*/
 }

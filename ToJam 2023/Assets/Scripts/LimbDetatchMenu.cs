@@ -10,9 +10,9 @@ public class LimbDetatchMenu : MonoBehaviour
     [SerializeField] private GameObject[] limbs;
     [SerializeField] private GameObject[] menuButtons;
     [SerializeField] private Transform limbSpawnPosition;
-    [SerializeField] private PlayerMovement playerScript;
+    [SerializeField] public PlayerMovement playerScript;
     [SerializeField] private GameObject limbDetatchMenu;
-    [SerializeField] private GameObject playerVisionSquare;
+    [SerializeField] public GameObject playerVisionSquare;
     
     private GameObject throwDestinationIcon;
     private ThrowLocationAllignment throwLocationAllignmentScript;
@@ -31,7 +31,13 @@ public class LimbDetatchMenu : MonoBehaviour
     [HideInInspector] public ThrowBody body;
     [HideInInspector] public bool hasThrown = false;
 
+    private GameObject player;
+    private GameObject movePoint;
+
     public int currentLimb = 0;
+
+    //For resetting all buttons upon press
+    [HideInInspector] public Button interactables;
 
     private void Start()
     {
@@ -49,12 +55,18 @@ public class LimbDetatchMenu : MonoBehaviour
         }
 
         //For body throwing
+        player = GameObject.FindWithTag("Player");
         body = GameObject.FindWithTag("Player").GetComponent<ThrowBody>();
-        //Debug.Log(hasLimb.Length);
+        movePoint = GameObject.Find("Move Point");
+
+        interactables = GameObject.FindWithTag("Interactable").GetComponent<Button>();
+
     }
 
     private void Update()
     {
+        playerScript.enabled = !inThrowMode;
+
         //sets every has[Insert Limb] boolean equal to their numbered counterpart
         hasRightEye= hasLimb[0];
         hasLeftEye= hasLimb[1];
@@ -102,11 +114,20 @@ public class LimbDetatchMenu : MonoBehaviour
                     turns off the hasLimb
                     boolean and exits throw mode
                     */
+                    if (currentLimb < 6)
                         Instantiate(limbs[currentLimb], throwDestinationIcon.transform.position, limbSpawnPosition.rotation);
+                    else
+                    {
+                        movePoint.transform.position = throwDestinationIcon.transform.position;
+                        player.transform.position = throwDestinationIcon.transform.position;
+                    }
+                    menuButtons[currentLimb].SetActive(false);
+                    hasLimb[currentLimb] = false;
+                    inThrowMode = false;
+                    if(currentLimb == 6)
+                    {
                         hasThrown = true;
-                        menuButtons[currentLimb].SetActive(false);
-                        hasLimb[currentLimb] = false;
-                        inThrowMode = false;
+                    }
                 }
             }
 
@@ -271,6 +292,8 @@ public class LimbDetatchMenu : MonoBehaviour
         {
             GameObject.Find("Left Leg(Clone)").GetComponent<Limb>().interactables.Clear();
         }
+
+        interactables.ButtonDepressed();
 
 
         //destroys all detatched limbs

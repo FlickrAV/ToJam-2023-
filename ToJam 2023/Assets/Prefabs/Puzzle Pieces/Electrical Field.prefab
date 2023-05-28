@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2834575983855004130}
   - component: {fileID: 2834575983855004129}
-  - component: {fileID: 2834575983855004131}
   - component: {fileID: 2834575983855004128}
+  - component: {fileID: 4829790111707439847}
   m_Layer: 0
   m_Name: Electrical Field
   m_TagString: Untagged
@@ -89,23 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
---- !u!114 &2834575983855004131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2834575983855004135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bc810dd0267bc1419ffbbba7e93ee40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  exitLock: {fileID: 2834575984551335656}
-  isOpen: 0
-  exitOpen: {fileID: -1298893415, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
-  exitClose: {fileID: -993522661, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
-  exitSpriteDark: {fileID: 6993315979730167443}
 --- !u!61 &2834575983855004128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -132,6 +115,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &4829790111707439847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834575983855004135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c0380ba7f0f45429bd5716b51fafb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitLock: {fileID: 2834575984551335656}
+  isOpen: 0
+  exitOpen: {fileID: 36057762, guid: ff044e5154afb97428271681d519db31, type: 3}
+  exitClose: {fileID: 21300000, guid: ad7b296d426713b4593ee1a19fcbf9d1, type: 3}
+  exitSpriteDark: {fileID: 2834575983855004129}
 --- !u!1 &2834575984551335656
 GameObject:
   m_ObjectHideFlags: 0

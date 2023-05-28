@@ -19,7 +19,6 @@ public class Interactable : MonoBehaviour
     [Tooltip("Number of legs needed to activate")]public int legs = 0;
     [HideInInspector] public bool limbCanInteract = false;
     [HideInInspector] public Limb limbScript;
-    [HideInInspector] public int limbsUsed = 0;
 
     [HideInInspector] public bool playerCanInteract = true;
 
@@ -42,10 +41,12 @@ public class Interactable : MonoBehaviour
         if (limbScript.isArm)
         {
             armsInRange -= 1;
+            armsInRange = Mathf.Clamp(armsInRange, 0, 10);
         }
         else if (limbScript.isLeg)
         {
             legsInRange -= 1;
+            legsInRange = Mathf.Clamp(legsInRange, 0, 10);
         }
     }
     private void OnTriggerEnter2D(Collider2D other) 
@@ -229,11 +230,11 @@ public class Interactable : MonoBehaviour
 
     public bool InteractionCheck(GameObject limbToCheck)
     {
-        if(arms > 0 && limbToCheck.name.Contains("Arm"))
+        if(needsArms && limbToCheck.name.Contains("Arm"))
         {
             return true;
         }
-        else if(legs > 0 && limbToCheck.name.Contains("Leg"))
+        else if(needsLegs && limbToCheck.name.Contains("Leg"))
         {
             return true;
         }
