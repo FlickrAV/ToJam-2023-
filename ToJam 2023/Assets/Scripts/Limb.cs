@@ -82,19 +82,22 @@ public class Limb: MonoBehaviour
                 foreach (Interactable interactable in interactables)
                 {
                     interactable.limbScript = null;
-                    interactable.Deselect();
+                    //interactable.Deselect();
                 }
-                
-                interactedObject.limbsUsed -= 1;
+                isUsed = false;
+                //interactedObject.limbsUsed -= 1;
 
 
             }
         }
         if (!interactableInRange && playerNearby && !isInteracting)
         {
-            isInteracting = true;
-            Debug.Log("Select body to pick up");
-            playerIsThrowable = true;
+            if (!isUsed)
+            {
+                isInteracting = true;
+                Debug.Log("Select body to pick up");
+                playerIsThrowable = true;
+            }
         }
     }
 
@@ -139,4 +142,9 @@ public class Limb: MonoBehaviour
             playerNearby = false;
         }
     }
+
+    /*private void OnDestroy()
+    {
+        interactables.li
+    }*/
 }

@@ -293,7 +293,7 @@ public class LimbDetatchMenu : MonoBehaviour
             GameObject.Find("Left Leg(Clone)").GetComponent<Limb>().interactables.Clear();
         }
 
-        //interactables.ButtonDepressed();
+        interactables.ButtonDepressed();
 
 
         //destroys all detatched limbs
