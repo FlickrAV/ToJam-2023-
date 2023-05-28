@@ -13,6 +13,8 @@ public class Limb: MonoBehaviour
     public bool isArm;
     public bool isLeg;
 
+    public GameObject locationSelectorIcon;
+
     [HideInInspector]public bool playerNearby = false;
     [HideInInspector] public bool playerIsThrowable = false;
     [HideInInspector] public ThrowBody body;
@@ -40,13 +42,15 @@ public class Limb: MonoBehaviour
                 isInteracting = false;
             }
         }
+
     }
 
     private void OnMouseDown()
     {
         if (interactableInRange && interactables.Capacity > 0 && !isInteracting && canUse)
         {
-            Debug.Log("Capacity check triggered on click");
+            Instantiate(locationSelectorIcon);
+            
             isInteracting = true;
             if (!isUsed)
             {
@@ -55,7 +59,8 @@ public class Limb: MonoBehaviour
                     interactable.limbCanInteract = interactable.InteractionCheck(this.gameObject);
                     interactable.limbScript = this;
                     interactable.Identify();
-                    interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+                    isUsed= true;
+                    //interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
                 }
                 if (playerNearby)
                 {
@@ -81,6 +86,8 @@ public class Limb: MonoBehaviour
                 }
                 
                 interactedObject.limbsUsed -= 1;
+
+
             }
         }
         if (!interactableInRange && playerNearby && !isInteracting)
@@ -101,6 +108,7 @@ public class Limb: MonoBehaviour
         {
             interactableInRange = true;
             interactables.Add(other.gameObject.GetComponent<Interactable>());
+
         }
         if (other.tag == "Body")
         {

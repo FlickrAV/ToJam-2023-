@@ -146,9 +146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 368fa4a93e0ad364c81fbc34d0ed0efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactables: []
   isUsed: 0
   isArm: 0
   isLeg: 1
+  locationSelectorIcon: {fileID: 4003447670341638004, guid: 6347c83ab56da194487329160992c9da, type: 3}
   playerNearby: 0
   playerIsThrowable: 0
   body: {fileID: 0}

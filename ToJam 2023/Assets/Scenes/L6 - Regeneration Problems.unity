@@ -222,7 +222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6064744471171724255, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: legs
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6064744471171724255, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: needsLegs
