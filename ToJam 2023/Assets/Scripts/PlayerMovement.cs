@@ -30,18 +30,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
-            animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
-            /*
         if (transform.position == movePoint.position)
         {
-            
+            animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+            animator.SetFloat("Vertical", Input.GetAxis("Vertical"));       
         }
         else
         {
             animator.SetFloat("Horizontal", movePoint.position.x - transform.position.x);
             animator.SetFloat("Vertical", movePoint.position.y - transform.position.y);
-        }*/
+        }
         animator.SetBool("isIdle", isIdle);
 
         //movement
