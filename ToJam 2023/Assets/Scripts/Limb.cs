@@ -12,6 +12,15 @@ public class Limb: MonoBehaviour
     public bool isArm;
     public bool isLeg;
 
+    [HideInInspector]public bool playerNearby = false;
+    [HideInInspector] public bool playerIsThrowable = false;
+    [HideInInspector] public ThrowBody body;
+
+    private void Start()
+    {
+        body = GameObject.FindWithTag("Body").GetComponent<ThrowBody>(); 
+        body.limbScript = this;
+    }
 
     private void Update()
     {
@@ -41,6 +50,15 @@ public class Limb: MonoBehaviour
                     interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
                 }
             }
+            else if (playerNearby)
+            {
+                Debug.Log("Select body to pick up");
+                playerIsThrowable = true;
+            }
+            else if (!playerNearby)
+            {
+                playerIsThrowable = false;
+            }
             else
             {
                 foreach (Interactable interactable in interactables)
@@ -52,6 +70,15 @@ public class Limb: MonoBehaviour
                 interactedObject.limbsUsed -= 1;
             }
         }
+        else if (playerNearby && !isInteracting)
+        {
+            Debug.Log("Select body to pick up");
+            playerIsThrowable = true;
+        }
+        else if (!playerNearby)
+        {
+            playerIsThrowable = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -59,6 +86,11 @@ public class Limb: MonoBehaviour
         if (other.tag == "Interactable")
         {
             interactables.Add(other.gameObject.GetComponent<Interactable>());
+        }
+        if (other.tag == "Body")
+        {
+            Debug.Log("Body is ready to be picked up");
+            playerNearby = true;
         }
     }
 
@@ -74,6 +106,11 @@ public class Limb: MonoBehaviour
                     interactables.TrimExcess();
                 }
             }
+        }
+        if (other.tag == "Body")
+        {
+            Debug.Log("Body can no longer be picked up");
+            playerNearby = false;
         }
     }
 }
