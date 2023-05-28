@@ -29,9 +29,26 @@ public class Button : MonoBehaviour
     private void Update()
     {
         Debug.Log(interactableScript.thingsInRange);
-        if (interactableScript.thingsInRange == 0 && isPressed)
+        if (interactableScript.playerInteract)
         {
-            ButtonDepressed();
+            if (interactableScript.thingsInRange == 0 && isPressed)
+            {
+                ButtonDepressed();
+            }
+        }
+        else if (interactableScript.needsArms)
+        {
+            if (interactableScript.armsInRange == 0 && isPressed)
+            {
+                ButtonDepressed();
+            }
+        }
+        else if (interactableScript.needsLegs)
+        {
+            if (interactableScript.legsInRange == 0 && isPressed)
+            {
+                ButtonDepressed();
+            }
         }
     }
 
@@ -51,6 +68,7 @@ public class Button : MonoBehaviour
     {
         for (int i = 0; i < objectsToCallOnDepress.Length; i++)
         {
+            Debug.Log("button is depressed :(");
             spriteRender.sprite = spriteOff;
             spriteRenderDark.sprite = spriteOff;
             objectsToCallOnDepress[i].SendMessage(functionsToCallOnDepress[i]);
@@ -64,16 +82,39 @@ public class Button : MonoBehaviour
         {
             if(interactableScript.limbCanInteract)
             {
-                Debug.Log("if you see this you've done something wrong (button code)");
-                interactableScript.limbsUsed += 1;
-                if(interactableScript.limbsUsed == interactableScript.arms || interactableScript.limbsUsed == interactableScript.legs)
+                //interactableScript.limbsUsed += 1;
+                if (interactableScript.needsArms)
+                {
+                    if(interactableScript.armsInRange == interactableScript.arms)
+                    {
+                        Debug.Log("Open the door");
+                        interactableScript.playerCanInteract = false;
+                        interactableScript.playerInteract = false;  
+                        ButtonPressed();      
+                        interactableScript.limbScript.isUsed = true;
+                        interactableScript.limbScript.gameObject.transform.position = Vector3.MoveTowards(interactableScript.limbScript.gameObject.transform.position, transform.position, 5);
+                    }
+                }
+                else if (interactableScript.needsLegs)
+                {
+                    if (interactableScript.legsInRange == interactableScript.legs)
+                    {
+                        Debug.Log("Open the door (but with a foot!)");
+                        interactableScript.playerCanInteract = false;
+                        interactableScript.playerInteract = false;    
+                        ButtonPressed();
+                        interactableScript.limbScript.isUsed = true;
+                        interactableScript.limbScript.gameObject.transform.position = Vector3.MoveTowards(interactableScript.limbScript.gameObject.transform.position, transform.position, 5);
+                    }
+                }
+                /*if(interactableScript.limbsUsed == interactableScript.arms || interactableScript.limbsUsed == interactableScript.legs)
                 {
                     ButtonPressed();
                     interactableScript.limbScript.isUsed = true;
                     interactableScript.limbScript.gameObject.transform.position = Vector3.MoveTowards(interactableScript.limbScript.gameObject.transform.position, transform.position, 5);
-                }
+                }*/
             }
-            else if(interactableScript.PlayerInteractionCheck())
+            if (interactableScript.PlayerInteractionCheck() && interactableScript.playerInteract)
             {
                 ButtonPressed();
             }
