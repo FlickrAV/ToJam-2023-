@@ -100,6 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUsed: 0
+  isArm: 1
+  isLeg: 0
 --- !u!61 &2207969259248715051
 BoxCollider2D:
   m_ObjectHideFlags: 0

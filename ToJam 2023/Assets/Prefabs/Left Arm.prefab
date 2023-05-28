@@ -100,6 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUsed: 0
+  isArm: 1
+  isLeg: 0
 --- !u!61 &427761389696981124
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -117,7 +119,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.86, y: 4.231262}
+    oldSize: {x: 0.41333336, y: 0.94028056}
     newSize: {x: 1.86, y: 4.231262}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
