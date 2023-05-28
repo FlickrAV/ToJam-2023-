@@ -228,6 +228,40 @@ public class LimbDetatchMenu : MonoBehaviour
             hasLimb[i] = true;
         }
 
+        /*
+        if (GameObject.Find("Right Eye(Clone)") != null)
+        {
+            GameObject rightEye= GameObject.Find("Right Eye(Clone)");
+            Limb limb = rightEye.GetComponent<Limb>();
+            if (limb.interactables.Capacity > 0)
+            {
+                limb.interactables.Clear();
+            }
+        }
+        */
+        //GameObject.Find("Left Eye(Clone)").GetComponent<Limb>().interactables.Clear();
+
+        if (GameObject.Find("Right Arm(Clone)") != null)
+        {
+            GameObject.Find("Right Arm(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Left Arm(Clone)") != null)
+        {
+            GameObject.Find("Left Arm(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Right Leg(Clone)") != null)
+        {
+            GameObject.Find("Right Leg(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Left Leg(Clone)") != null)
+        {
+            GameObject.Find("Left Leg(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+
         //destroys all detatched limbs
         Destroy(GameObject.Find("Right Eye(Clone)"));
         Destroy(GameObject.Find("Left Eye(Clone)"));        
