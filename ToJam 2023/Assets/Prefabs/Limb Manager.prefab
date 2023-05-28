@@ -66,7 +66,7 @@ MonoBehaviour:
   playerVisionSquare: {fileID: 0}
   inThrowMode: 0
   inDropMode: 1
-  hasLimb: 000000000000
+  hasLimb: 00000000000000
   hasRightEye: 0
   hasLeftEye: 0
   hasRightArm: 0
@@ -77,4 +77,6 @@ MonoBehaviour:
   hasArms: 1
   hasLegs: 1
   hasEyes: 1
+  body: {fileID: 0}
+  hasThrown: 0
   currentLimb: 0

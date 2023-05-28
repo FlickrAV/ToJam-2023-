@@ -19,7 +19,7 @@ public class LimbDetatchMenu : MonoBehaviour
 
     [HideInInspector] public bool inThrowMode, inDropMode;
 
-    [HideInInspector]public bool[] hasLimb = new bool[7];
+    [HideInInspector] public bool[] hasLimb = new bool[7];
 
     [HideInInspector]public bool hasRightEye, hasLeftEye, hasRightArm, hasLeftArm, hasRightLeg, hasLeftLeg, hasBody = true;
 
