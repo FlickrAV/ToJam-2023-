@@ -833,7 +833,7 @@ GameObject:
   - component: {fileID: 7125065984799291085}
   - component: {fileID: 7500061587685599446}
   - component: {fileID: 1119798363277133263}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: No Throw Zone
   m_TagString: Collisions
   m_Icon: {fileID: 0}

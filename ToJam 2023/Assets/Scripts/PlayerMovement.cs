@@ -116,4 +116,13 @@ public class PlayerMovement : MonoBehaviour
             canMove = false;
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Regenerator"))
+        {
+            Debug.Log("regenerate");
+            limbMenuScript.Regenerate();
+        }
+    }
 }
