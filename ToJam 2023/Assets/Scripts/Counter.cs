@@ -7,6 +7,9 @@ public class Counter : MonoBehaviour
     [SerializeField] private GameObject[] objectsToCallOnHitMax;
     [SerializeField] private string[] functionsToCallOnHitMax;
 
+    [SerializeField] private GameObject[] objectsToCallOnLeaveMax;
+    [SerializeField] private string[] functionsToCallOnLeaveMax;
+
     private int totalCount;
     private bool hasHitMax = false;
 
@@ -14,18 +17,18 @@ public class Counter : MonoBehaviour
 
     private void Update()
     {
-        if (totalCount == maxCount)
+        if (totalCount == maxCount && !hasHitMax)
         {
             hasHitMax = true;
             OnHitMax();
         }
-        if (hasHitMax)
+
+        if (totalCount < maxCount && hasHitMax)
         {
-            if (totalCount < maxCount)
-            {
-                OnLeaveMax();
-            }
+            hasHitMax = false;
+            OnLeaveMax();
         }
+
     }
 
     private void Add()
@@ -48,7 +51,7 @@ public class Counter : MonoBehaviour
     {
         for (int i = 0; i < objectsToCallOnHitMax.Length; i++)
         {
-            objectsToCallOnHitMax[i].SendMessage(functionsToCallOnHitMax[i]);
+            objectsToCallOnHitMax[i].SendMessage(functionsToCallOnLeaveMax[i]);
         }
     }
 }
