@@ -64,6 +64,15 @@ public class LimbDetatchMenu : MonoBehaviour
         hasLeftLeg= hasLimb[5];
         //hasBody = hasLimb[6];
 
+        //checks if each limb is active and turns the corrisponding button on or off
+        for (int i = 0; i < limbs.Length;i++)
+        {
+            menuButtons[i].SetActive(hasLimb[i]);
+        }
+
+        //turns the vision square on or off depending on whether or not the player has eyes
+        playerVisionSquare.SetActive(hasEyes);
+
         //opens the limb menu when the Limb Menu Key is pressed if the menu is not already open
         if (Input.GetButtonDown("Limb Menu") && !limbDetatchMenu.activeSelf)
         {
@@ -90,8 +99,7 @@ public class LimbDetatchMenu : MonoBehaviour
                     if the left mouse button is pressed, 
                     spawns the limb at the location 
                     of the limb destination indicator,
-                    turns off the corrisponding button
-                    in the menu, turns off the hasLimb
+                    turns off the hasLimb
                     boolean and exits throw mode
                     */
                         Instantiate(limbs[currentLimb], throwDestinationIcon.transform.position, limbSpawnPosition.rotation);
@@ -132,12 +140,10 @@ public class LimbDetatchMenu : MonoBehaviour
                    if the left mouse button is pressed, 
                    spawns the limb at the location 
                    of the limb destination indicator,
-                   turns off the corrisponding button
-                   in the menu, turns off the hasLimb
+                   turns off the hasLimb
                    boolean and exits drop mode
                    */
                         Instantiate(limbs[currentLimb], throwDestinationIcon.transform.position, limbSpawnPosition.rotation);
-                        menuButtons[currentLimb].SetActive(false);
                         hasLimb[currentLimb] = false;
                         inDropMode = false;
                 }
@@ -166,23 +172,37 @@ public class LimbDetatchMenu : MonoBehaviour
 
 
         //controls the booleans that say whether or not you have both of a certain type of limb
-        if (!hasLeftArm && !hasRightArm)
-        {
-            hasArms= false;
-        }
-        if (!hasRightLeg && !hasLeftLeg)
-        {
-            hasLegs= false;
-        }
         if (!hasLeftEye && !hasRightEye)
         {
             hasEyes= false;
         }
-
-        //turns off the vision square if the player doesn't have any eyes
-        if (!hasEyes)
+        else
         {
-            playerVisionSquare.SetActive(false);
+            hasEyes = true;
+        }
+
+        if (!hasLeftArm && !hasRightArm)
+        {
+            hasArms= false;
+        }
+        else
+        {
+            hasArms = true;
+        }
+
+        if (!hasRightLeg && !hasLeftLeg)
+        {
+            hasLegs= false;
+        }
+        else
+        {
+            hasLegs = true;
+        }
+
+
+        if (Input.GetButtonDown("Reset"))
+        {
+            Regenerate();
         }
     }
 
@@ -208,5 +228,57 @@ public class LimbDetatchMenu : MonoBehaviour
             //turns off the limb menu
             limbDetatchMenu.SetActive(false);
         }
+    }
+
+
+    public void Regenerate()
+    {
+        //sets all the hasLimb booleans back to true
+        for (int i = 0; i < hasLimb.Length; i++)
+        {
+            hasLimb[i] = true;
+        }
+
+        /*
+        if (GameObject.Find("Right Eye(Clone)") != null)
+        {
+            GameObject rightEye= GameObject.Find("Right Eye(Clone)");
+            Limb limb = rightEye.GetComponent<Limb>();
+            if (limb.interactables.Capacity > 0)
+            {
+                limb.interactables.Clear();
+            }
+        }
+        */
+        //GameObject.Find("Left Eye(Clone)").GetComponent<Limb>().interactables.Clear();
+
+        if (GameObject.Find("Right Arm(Clone)") != null)
+        {
+            GameObject.Find("Right Arm(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Left Arm(Clone)") != null)
+        {
+            GameObject.Find("Left Arm(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Right Leg(Clone)") != null)
+        {
+            GameObject.Find("Right Leg(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Left Leg(Clone)") != null)
+        {
+            GameObject.Find("Left Leg(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+
+        //destroys all detatched limbs
+        Destroy(GameObject.Find("Right Eye(Clone)"));
+        Destroy(GameObject.Find("Left Eye(Clone)"));        
+        Destroy(GameObject.Find("Right Arm(Clone)"));
+        Destroy(GameObject.Find("Left Arm(Clone)"));
+        Destroy(GameObject.Find("Right Leg(Clone)"));
+        Destroy(GameObject.Find("Left Leg(Clone)"));
     }
 }

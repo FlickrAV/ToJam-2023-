@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Limb: MonoBehaviour
 {
-    private List<Interactable> interactables = new List<Interactable>();
+    [HideInInspector]public List<Interactable> interactables = new List<Interactable>(1);
     private bool isInteracting = false;
     [HideInInspector] public bool isUsed = false;
     private Interactable interactedObject;
@@ -20,7 +21,9 @@ public class Limb: MonoBehaviour
     {
         body = GameObject.FindWithTag("Body").GetComponent<ThrowBody>(); 
         body.limbScript = this;
+        interactables.Clear();
     }
+
 
     private void Update()
     {
