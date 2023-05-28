@@ -28,7 +28,7 @@ public class ThrowBody : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("You clicked the body!");
-        if (inRange)
+        if (inRange && limbScript.isArm)
         {
             Debug.Log(limbScript.playerIsThrowable);
             if (limbScript.playerIsThrowable)
