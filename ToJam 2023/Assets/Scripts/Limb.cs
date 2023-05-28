@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arm : MonoBehaviour
+public class Limb: MonoBehaviour
 {
     private List<Interactable> interactables = new List<Interactable>();
     private bool isInteracting = false;
     [HideInInspector] public bool isUsed = false;
     private Interactable interactedObject;
+
+    public bool isArm;
+    public bool isLeg;
 
 
     private void Update()
@@ -34,11 +37,18 @@ public class Arm : MonoBehaviour
                 {
                     interactable.limbCanInteract = interactable.InteractionCheck(this.gameObject);
                     interactable.limbScript = this;
+                    interactable.Identify();
                     interactable.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
                 }
             }
             else
             {
+                foreach (Interactable interactable in interactables)
+                {
+                    interactable.limbScript = null;
+                    interactable.Deselect();
+                }
+                
                 interactedObject.limbsUsed -= 1;
             }
         }
