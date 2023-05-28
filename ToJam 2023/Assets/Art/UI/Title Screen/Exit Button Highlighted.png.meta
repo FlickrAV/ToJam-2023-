@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c33a56a907d20a14e8771b1c86d64876
+guid: 36691eef4451d504f89a336169c75422
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,22 +104,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Start Button Pressed_0
+      name: Exit Button Highlighted_0
       rect:
         serializedVersion: 2
         x: 1024
-        y: 483
+        y: 291
         width: 598
         height: 196
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95267dac967999842bcea074458d4c32
-      internalID: 300831010
+      spriteID: c816639732da22548ae30572f0f1d86c
+      internalID: 954278096
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Start Button Pressed_0: 300831010
+      Exit Button Highlighted_0: 954278096
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
