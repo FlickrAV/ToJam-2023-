@@ -19,15 +19,19 @@ public class LimbDetatchMenu : MonoBehaviour
 
     [HideInInspector] public bool inThrowMode, inDropMode;
 
-    [HideInInspector] public bool[] hasLimb = new bool[6];
+    [HideInInspector] public bool[] hasLimb = new bool[7];
 
-    [HideInInspector]public bool hasRightEye, hasLeftEye, hasRightArm, hasLeftArm, hasRightLeg, hasLeftLeg = true;
+    [HideInInspector]public bool hasRightEye, hasLeftEye, hasRightArm, hasLeftArm, hasRightLeg, hasLeftLeg, hasBody = true;
 
     [HideInInspector]public bool hasArms = true;
     [HideInInspector]public bool hasLegs = true;
     [HideInInspector]public bool hasEyes = true;
 
-    private int currentLimb = 0;
+    //For throwing body
+    [HideInInspector] public ThrowBody body;
+    [HideInInspector] public bool hasThrown = false;
+
+    public int currentLimb = 0;
 
     private void Start()
     {
@@ -39,10 +43,14 @@ public class LimbDetatchMenu : MonoBehaviour
         inThrowMode = false;
 
         //sets all the booleans in the hasLimb array to true
-        for (int i = 0; i < limbs.Length; i++)
+        for (int i = 0; i < hasLimb.Length; i++)
         {
             hasLimb[i] = true;
         }
+
+        //For body throwing
+        body = GameObject.FindWithTag("Player").GetComponent<ThrowBody>();
+        //Debug.Log(hasLimb.Length);
     }
 
     private void Update()
@@ -54,6 +62,7 @@ public class LimbDetatchMenu : MonoBehaviour
         hasLeftArm= hasLimb[3];
         hasRightLeg= hasLimb[4];
         hasLeftLeg= hasLimb[5];
+        //hasBody = hasLimb[6];
 
         //checks if each limb is active and turns the corrisponding button on or off
         for (int i = 0; i < limbs.Length;i++)
@@ -94,6 +103,8 @@ public class LimbDetatchMenu : MonoBehaviour
                     boolean and exits throw mode
                     */
                         Instantiate(limbs[currentLimb], throwDestinationIcon.transform.position, limbSpawnPosition.rotation);
+                        hasThrown = true;
+                        menuButtons[currentLimb].SetActive(false);
                         hasLimb[currentLimb] = false;
                         inThrowMode = false;
                 }
@@ -227,6 +238,40 @@ public class LimbDetatchMenu : MonoBehaviour
         {
             hasLimb[i] = true;
         }
+
+        /*
+        if (GameObject.Find("Right Eye(Clone)") != null)
+        {
+            GameObject rightEye= GameObject.Find("Right Eye(Clone)");
+            Limb limb = rightEye.GetComponent<Limb>();
+            if (limb.interactables.Capacity > 0)
+            {
+                limb.interactables.Clear();
+            }
+        }
+        */
+        //GameObject.Find("Left Eye(Clone)").GetComponent<Limb>().interactables.Clear();
+
+        if (GameObject.Find("Right Arm(Clone)") != null)
+        {
+            GameObject.Find("Right Arm(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Left Arm(Clone)") != null)
+        {
+            GameObject.Find("Left Arm(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Right Leg(Clone)") != null)
+        {
+            GameObject.Find("Right Leg(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
+        if (GameObject.Find("Left Leg(Clone)") != null)
+        {
+            GameObject.Find("Left Leg(Clone)").GetComponent<Limb>().interactables.Clear();
+        }
+
 
         //destroys all detatched limbs
         Destroy(GameObject.Find("Right Eye(Clone)"));

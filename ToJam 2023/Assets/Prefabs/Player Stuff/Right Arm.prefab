@@ -102,6 +102,9 @@ MonoBehaviour:
   isUsed: 0
   isArm: 1
   isLeg: 0
+  playerNearby: 0
+  playerIsThrowable: 0
+  body: {fileID: 0}
 --- !u!61 &2207969259248715051
 BoxCollider2D:
   m_ObjectHideFlags: 0
