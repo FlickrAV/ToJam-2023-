@@ -9,6 +9,7 @@ TagManager:
   - Vision Square
   - Eye Vision Square
   - Collisions
+  - Regenerator
   layers:
   - Default
   - TransparentFX
