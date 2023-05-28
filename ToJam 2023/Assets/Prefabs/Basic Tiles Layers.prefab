@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 770419417848521081}
   m_Layer: 3
   m_Name: Collision Tiles
-  m_TagString: Untagged
+  m_TagString: Collisions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 147654284146842601}
   m_Layer: 3
   m_Name: Invisible Outter Barier
-  m_TagString: Untagged
+  m_TagString: Collisions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 1119798363277133263}
   m_Layer: 3
   m_Name: No Throw Zone
-  m_TagString: Untagged
+  m_TagString: Collisions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
