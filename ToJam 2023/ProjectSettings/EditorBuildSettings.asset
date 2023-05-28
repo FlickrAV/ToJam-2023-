@@ -11,4 +11,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Title Screen.unity
     guid: e22aebb7f2985b148be14d1602df14c8
+  - enabled: 1
+    path: Assets/Scenes/L1 - Welcome to the Show.unity
+    guid: 779d93737f87fa349b00417899cc63fa
+  - enabled: 1
+    path: Assets/Scenes/L2 - Leg Work.unity
+    guid: 750dbf431842f4b4893692f922bfbf4c
+  - enabled: 1
+    path: Assets/Scenes/L3 - Over the Gap.unity
+    guid: c6517b56861a39248a8d9857d97586b7
+  - enabled: 1
+    path: Assets/Scenes/L4 - What a Regen.unity
+    guid: 1af272aedd5188b40822a35ac1bf6fdd
+  - enabled: 1
+    path: Assets/Scenes/L5 - Vision is Key.unity
+    guid: 0acf04dd4b033044d84da889de4ff057
+  - enabled: 1
+    path: Assets/Scenes/L6 - Throwin Bodies.unity
+    guid: 142c1573a038c9f43ab76b38a5e0e89a
+  - enabled: 1
+    path: Assets/Scenes/L7 - Regeneration Problems.unity
+    guid: 0b105ecccab8038478a328447b18e1d1
+  - enabled: 1
+    path: Assets/Scenes/L8 EyeHop.unity
+    guid: 54e28d02029c47b4096f5d5ca77b3edd
+  - enabled: 1
+    path: Assets/Scenes/L9 - A Shocking Level.unity
+    guid: a615e0d13ec166f4392a4d015b19b427
+  - enabled: 1
+    path: Assets/Scenes/L10 - Two for Everything.unity
+    guid: 2f1972ec36b8a554fa199e9d7ea6a21c
+  - enabled: 1
+    path: Assets/Scenes/L11 - Treadmill that Does it All.unity
+    guid: 943f2a5c0fb1bdc44866034431de40ba
+  - enabled: 1
+    path: Assets/Scenes/L12 - Lightning God.unity
+    guid: 1b8186829cbb0aa4b86b5e44f96b4bdc
   m_configObjects: {}
