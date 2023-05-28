@@ -77,8 +77,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2018512137, guid: d4c26aeeb723a184d9eba1b23b195dca, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 2023374193, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -106,6 +106,12 @@ MonoBehaviour:
   functionsToCall:
   - 
   - 
+  objectsToCallOnDepress: []
+  functionsToCallOnDepress: []
+  spriteRender: {fileID: 1813566931064670149}
+  spriteOn: {fileID: -1404629845, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
+  spriteOff: {fileID: 2023374193, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
+  spriteRenderDark: {fileID: 8720985623996583172}
 --- !u!114 &6064744471171724255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +131,8 @@ MonoBehaviour:
   arms: 0
   legs: 0
   limbCanInteract: 0
+  limbScript: {fileID: 0}
+  limbsUsed: 0
 --- !u!61 &1813566931064670151
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,14 +150,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0042171, y: 1.0044281}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &6123544071528560033
 GameObject:
@@ -162,7 +170,7 @@ GameObject:
   - component: {fileID: 2570083420137222781}
   - component: {fileID: 8720985623996583172}
   m_Layer: 0
-  m_Name: Button
+  m_Name: Button Dark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -224,8 +232,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2018512137, guid: d4c26aeeb723a184d9eba1b23b195dca, type: 3}
-  m_Color: {r: 0.4056604, g: 0.17795478, b: 0.17795478, a: 1}
+  m_Sprite: {fileID: 2023374193, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
+  m_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

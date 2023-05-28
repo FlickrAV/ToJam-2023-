@@ -12,8 +12,10 @@ public class LimbDetatchMenu : MonoBehaviour
     [SerializeField] private Transform limbSpawnPosition;
     [SerializeField] private PlayerMovement playerScript;
     [SerializeField] private GameObject limbDetatchMenu;
-    [SerializeField] private GameObject throwDestinationIcon;
     [SerializeField] private GameObject playerVisionSquare;
+    
+    private GameObject throwDestinationIcon;
+    private ThrowLocationAllignment throwLocationAllignmentScript;
 
     [HideInInspector] public bool inThrowMode, inDropMode;
 
@@ -29,6 +31,9 @@ public class LimbDetatchMenu : MonoBehaviour
 
     private void Start()
     {
+        throwDestinationIcon = GameObject.Find("Throw Destination");
+        throwLocationAllignmentScript = throwDestinationIcon.GetComponent<ThrowLocationAllignment>();
+
         //sets both modes to false
         inDropMode= false;
         inThrowMode = false;
@@ -50,12 +55,12 @@ public class LimbDetatchMenu : MonoBehaviour
         hasRightLeg= hasLimb[4];
         hasLeftLeg= hasLimb[5];
 
-        //opens the limb menu when the E key is pressed if the menu is not already open
+        //opens the limb menu when the Limb Menu Key is pressed if the menu is not already open
         if (Input.GetButtonDown("Limb Menu") && !limbDetatchMenu.activeSelf)
         {
             limbDetatchMenu.SetActive(true);
         }
-        //closes the limb meny when the E key is pressed if the menu is already open
+        //closes the limb meny when the Limb Menu Key is pressed if the menu is already open
         else if (Input.GetButtonDown("Limb Menu") && limbDetatchMenu.activeSelf)
         {
             limbDetatchMenu.SetActive(false);
@@ -70,18 +75,21 @@ public class LimbDetatchMenu : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                /*
-                if the left mouse button is pressed, 
-                spawns the limb at the location 
-                of the limb destination indicator,
-                turns off the corrisponding button
-                in the menu, turns off the hasLimb
-                boolean and exits throw mode
-                */
-                    Instantiate(limbs[currentLimb], throwDestinationIcon.transform.position, limbSpawnPosition.rotation);
-                    menuButtons[currentLimb].SetActive(false);
-                    hasLimb[currentLimb] = false;
-                    inThrowMode = false;
+                if (throwLocationAllignmentScript.canThrowLimb)
+                {
+                    /*
+                    if the left mouse button is pressed, 
+                    spawns the limb at the location 
+                    of the limb destination indicator,
+                    turns off the corrisponding button
+                    in the menu, turns off the hasLimb
+                    boolean and exits throw mode
+                    */
+                        Instantiate(limbs[currentLimb], throwDestinationIcon.transform.position, limbSpawnPosition.rotation);
+                        menuButtons[currentLimb].SetActive(false);
+                        hasLimb[currentLimb] = false;
+                        inThrowMode = false;
+                }
             }
 
             //exits throw mode if right click, E or Escape are pressed
@@ -108,18 +116,21 @@ public class LimbDetatchMenu : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                /*
-               if the left mouse button is pressed, 
-               spawns the limb at the location 
-               of the limb destination indicator,
-               turns off the corrisponding button
-               in the menu, turns off the hasLimb
-               boolean and exits drop mode
-               */
-                    Instantiate(limbs[currentLimb], throwDestinationIcon.transform.position, limbSpawnPosition.rotation);
-                    menuButtons[currentLimb].SetActive(false);
-                    hasLimb[currentLimb] = false;
-                    inDropMode = false;
+                if (throwLocationAllignmentScript.canThrowLimb)
+                {
+                    /*
+                   if the left mouse button is pressed, 
+                   spawns the limb at the location 
+                   of the limb destination indicator,
+                   turns off the corrisponding button
+                   in the menu, turns off the hasLimb
+                   boolean and exits drop mode
+                   */
+                        Instantiate(limbs[currentLimb], throwDestinationIcon.transform.position, limbSpawnPosition.rotation);
+                        menuButtons[currentLimb].SetActive(false);
+                        hasLimb[currentLimb] = false;
+                        inDropMode = false;
+                }
             }
 
             //exits throw mode if right click, E or Escape are pressed
