@@ -65,6 +65,8 @@ public class LimbDetatchMenu : MonoBehaviour
 
     private void Update()
     {
+        playerScript.enabled = !inThrowMode;
+
         //sets every has[Insert Limb] boolean equal to their numbered counterpart
         hasRightEye= hasLimb[0];
         hasLeftEye= hasLimb[1];
