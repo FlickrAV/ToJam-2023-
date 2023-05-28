@@ -13,6 +13,8 @@ public class Limb: MonoBehaviour
     public bool isArm;
     public bool isLeg;
 
+    public GameObject locationSelectorIcon;
+
     [HideInInspector]public bool playerNearby = false;
     [HideInInspector] public bool playerIsThrowable = false;
     [HideInInspector] public ThrowBody body;
@@ -42,6 +44,8 @@ public class Limb: MonoBehaviour
     {
         if (interactables.Capacity > 0 && !isInteracting)
         {
+            Instantiate(locationSelectorIcon);
+            
             isInteracting = true;
             if (!isUsed)
             {
