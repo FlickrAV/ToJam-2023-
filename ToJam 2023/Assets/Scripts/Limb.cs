@@ -80,8 +80,7 @@ public class Limb: MonoBehaviour
             else
             {
                 foreach (Interactable interactable in interactables)
-                {
-                    interactable.limbScript = null;
+                {                    interactable.limbScript = null;
                     //interactable.Deselect();
                 }
                 isUsed = false;
