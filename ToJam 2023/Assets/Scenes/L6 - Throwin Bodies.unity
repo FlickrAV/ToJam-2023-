@@ -25439,6 +25439,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 118ca79bfa1f6944a97130d745c6a28f, type: 3}
+--- !u!1 &666114608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8992932241173389475, guid: 118ca79bfa1f6944a97130d745c6a28f, type: 3}
+  m_PrefabInstance: {fileID: 666114607}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &981544336 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1053361327863270296, guid: 118ca79bfa1f6944a97130d745c6a28f, type: 3}
@@ -25827,5 +25832,9 @@ PrefabInstance:
       propertyPath: menuButtons.Array.data[5]
       value: 
       objectReference: {fileID: 479726674}
+    - target: {fileID: 8439734380191971851, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
+      propertyPath: menuButtons.Array.data[6]
+      value: 
+      objectReference: {fileID: 666114608}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
