@@ -14,6 +14,12 @@ public class Button : MonoBehaviour
 
     private Interactable interactableScript;
 
+    public SpriteRenderer spriteRender;
+    public Sprite spriteOn;
+    public Sprite spriteOff;
+
+    public SpriteRenderer spriteRenderDark;
+
     private void Start() 
     {
         interactableScript = GetComponent<Interactable>();
@@ -33,6 +39,8 @@ public class Button : MonoBehaviour
     {
         for (int i = 0; i < objectsToCall.Length; i++)
         {
+            spriteRender.sprite = spriteOn;
+            spriteRenderDark.sprite = spriteOn;
             objectsToCall[i].SendMessage(functionsToCall[i]);
             isPressed = true;
             Debug.Log(isPressed);
@@ -43,6 +51,8 @@ public class Button : MonoBehaviour
     {
         for (int i = 0; i < objectsToCallOnDepress.Length; i++)
         {
+            spriteRender.sprite = spriteOff;
+            spriteRenderDark.sprite = spriteOff;
             objectsToCallOnDepress[i].SendMessage(functionsToCallOnDepress[i]);
             isPressed = false;
         }

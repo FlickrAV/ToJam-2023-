@@ -12885,6 +12885,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2.9
       objectReference: {fileID: 0}
+    - target: {fileID: 3663188186084377632, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3663188186084377633, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -12945,10 +12949,30 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3663188187187045030, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663188187187045030, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663188187187045030, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3663188187356832380, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
       propertyPath: limbManagerScript
       value: 
       objectReference: {fileID: 1948594096}
+    - target: {fileID: 8990963799454878641, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990963799454878641, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
 --- !u!1 &479726674 stripped
@@ -13193,11 +13217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1813566931064670148, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13287,7 +13311,8 @@ PrefabInstance:
       propertyPath: limbStateScript
       value: 
       objectReference: {fileID: 1948594096}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7971919083307690871, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
 --- !u!1 &981544336 stripped
 GameObject:
@@ -13409,11 +13434,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1053361326635059397, guid: 118ca79bfa1f6944a97130d745c6a28f, type: 3}
   m_PrefabInstance: {fileID: 666114607}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1895509618 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3663188187356832378, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
-  m_PrefabInstance: {fileID: 313245581}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1948594096 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8439734380191971851, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
@@ -13499,7 +13519,7 @@ PrefabInstance:
     - target: {fileID: 8439734380191971851, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
       propertyPath: throwDestinationIcon
       value: 
-      objectReference: {fileID: 1895509618}
+      objectReference: {fileID: 0}
     - target: {fileID: 8439734380191971851, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
       propertyPath: menuButtons.Array.data[0]
       value: 
