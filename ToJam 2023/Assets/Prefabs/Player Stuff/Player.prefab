@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2916202521918338502}
   - component: {fileID: 6302282086066851375}
-  - component: {fileID: 9021853294912860640}
   - component: {fileID: 8990963799454878641}
   - component: {fileID: 2589826586239657184}
+  - component: {fileID: 9016019597395717951}
   m_Layer: 0
   m_Name: Throw Destination
   m_TagString: Untagged
@@ -87,23 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9021853294912860640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485889039730517438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6312619f0fd7c24ca2223cbe33178c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 3663188186084377694}
-  canThrowIcon: {fileID: 21300000, guid: 11724df6c86b08d4d97c230f36feca64, type: 3}
-  cantThrowIcon: {fileID: 21300000, guid: eabc427df0c8c604ab8adc8d56ffc6f3, type: 3}
-  limbManagerScript: {fileID: 0}
-  canThrowLimb: 0
 --- !u!61 &8990963799454878641
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -151,6 +134,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &9016019597395717951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485889039730517438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bde64ff94d6124d9c4fb5f2e71f118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3663188186084377694}
+  canThrowIcon: {fileID: 21300000, guid: 11724df6c86b08d4d97c230f36feca64, type: 3}
+  cantThrowIcon: {fileID: 21300000, guid: eabc427df0c8c604ab8adc8d56ffc6f3, type: 3}
+  limbManagerScript: {fileID: 0}
+  canThrowLimb: 0
 --- !u!1 &3663188185520731817
 GameObject:
   m_ObjectHideFlags: 0
