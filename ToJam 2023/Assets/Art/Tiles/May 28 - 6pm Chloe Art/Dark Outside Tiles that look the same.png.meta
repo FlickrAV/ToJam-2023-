@@ -1,0 +1,904 @@
+fileFormatVersion: 2
+guid: 2ca761bcb479fe142a27e2785fe43468
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c333fa66ae5996248b15155466f73845
+      internalID: 1883200888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb1acf42c3ef3146ba1a6f6b5e9c72d
+      internalID: -1327200586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0797ebdef832d42a4e38da2c1192ff
+      internalID: -1810023654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8fe621bd14ebf498d8f0213727fc4f
+      internalID: 101115566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366ac8a219eaf9343873193d030cc067
+      internalID: -627690679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad072a213cd0cd44b2460ad7383bb3a
+      internalID: -1093207382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652b41a8ae122c949b474e678d6139fb
+      internalID: 1802579617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883fb4030abdc3f4f9f20b4cad137af2
+      internalID: -1432075631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56477ae63c435845b470867a14246b2
+      internalID: -30682182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349338cb872c2834d884f4bcd94b9b29
+      internalID: -591890917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f9fd832175858419c6f2e057333bfd
+      internalID: 909851637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_11
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e842e11b8609ae349b420bf94b5c8f3f
+      internalID: 2010615879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_12
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4efcc9fab0a9b4db41dd79e6b198ad
+      internalID: -1963421974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_13
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26c3f89c02d49f4ab1f46a302019faf
+      internalID: -1933278747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1aa317d084af94aaa1204ca254c3ff
+      internalID: -640557931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593f6bedc0c022d4da8854e1d8545e0f
+      internalID: 2028105161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_16
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f49b84acb074c647a88d73fd0bfaace
+      internalID: -36175992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd7a16c54179fa42aa12d5880e10e25
+      internalID: 69105911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_18
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c3b08e4eebc0248804bacf9fad8c4e
+      internalID: -1954196596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_19
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557bf288dd8de674fa0ca8fb4a17579f
+      internalID: -1572499789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_20
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce4b1d3f25cd6f48b7deb29b1cd6ecf
+      internalID: 429982254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693222eb76ce5e94093b687e800734f7
+      internalID: 914283193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cca3b53afe3db84893232cf39254c3e
+      internalID: 1142159455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_23
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd078e3266720804a942f18405f616c3
+      internalID: -918642904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3559e3926d7ef3c49a05e2415480747c
+      internalID: -1240257615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_25
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86702fb48be6882489c628474d30a3a9
+      internalID: 1923648860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_26
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6635c75eaad1604fbc5bf7a216f8ad2
+      internalID: -1931672957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_27
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063a1fa200c6b384b86df53249c70f69
+      internalID: -1974771461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c313b3691093fe6488c5771e35b1ede6
+      internalID: 1163497470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_29
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a08b27f9f0a7747a3ed61babf01a1a
+      internalID: 198167866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_30
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc15d2e0c76971a4dae7e689f66a093f
+      internalID: 390194077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_31
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b41ef015abf1c44a1fd7d8e520d7ad
+      internalID: 752710930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_32
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702a5a5ee0788b44a84c8d691982faac
+      internalID: -356848626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_33
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39db6a48ecfc08d45a55b91a4148d1e9
+      internalID: 2005508052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles that look the same_34
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5ee6c6e5ef9bd4a8c3734fded5b540
+      internalID: 691825897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dark Outside Tiles that look the same_33: 2005508052
+      Dark Outside Tiles that look the same_13: -1933278747
+      Dark Outside Tiles that look the same_1: -1327200586
+      Dark Outside Tiles that look the same_17: 69105911
+      Dark Outside Tiles that look the same_11: 2010615879
+      Dark Outside Tiles that look the same_22: 1142159455
+      Dark Outside Tiles that look the same_31: 752710930
+      Dark Outside Tiles that look the same_15: 2028105161
+      Dark Outside Tiles that look the same_12: -1963421974
+      Dark Outside Tiles that look the same_29: 198167866
+      Dark Outside Tiles that look the same_7: -1432075631
+      Dark Outside Tiles that look the same_5: -1093207382
+      Dark Outside Tiles that look the same_16: -36175992
+      Dark Outside Tiles that look the same_24: -1240257615
+      Dark Outside Tiles that look the same_32: -356848626
+      Dark Outside Tiles that look the same_27: -1974771461
+      Dark Outside Tiles that look the same_34: 691825897
+      Dark Outside Tiles that look the same_3: 101115566
+      Dark Outside Tiles that look the same_8: -30682182
+      Dark Outside Tiles that look the same_25: 1923648860
+      Dark Outside Tiles that look the same_21: 914283193
+      Dark Outside Tiles that look the same_18: -1954196596
+      Dark Outside Tiles that look the same_2: -1810023654
+      Dark Outside Tiles that look the same_0: 1883200888
+      Dark Outside Tiles that look the same_28: 1163497470
+      Dark Outside Tiles that look the same_9: -591890917
+      Dark Outside Tiles that look the same_6: 1802579617
+      Dark Outside Tiles that look the same_14: -640557931
+      Dark Outside Tiles that look the same_4: -627690679
+      Dark Outside Tiles that look the same_23: -918642904
+      Dark Outside Tiles that look the same_19: -1572499789
+      Dark Outside Tiles that look the same_10: 909851637
+      Dark Outside Tiles that look the same_20: 429982254
+      Dark Outside Tiles that look the same_30: 390194077
+      Dark Outside Tiles that look the same_26: -1931672957
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

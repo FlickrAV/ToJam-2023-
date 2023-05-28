@@ -1,0 +1,904 @@
+fileFormatVersion: 2
+guid: d3723d32d19b0c14a9b58f579b0f21fd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dark Outside Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeee1f3784a622c4dbdaf6a7f9d01adb
+      internalID: 1795795340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21182f07fb3aa84b91ecb5feccc8b71
+      internalID: 1648150410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef14cba3b9c88244b2bbccbe20517f9
+      internalID: -496252253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fbc2efa6aaccd4c8c21ea149b78aa8
+      internalID: 257615525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142744557f3aabb4396a214b3b2d8df8
+      internalID: -1215153954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee59e5ad3e07054bab21617a25854bf
+      internalID: -1016693966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bbd7a9103ae4646a22483e587f806f
+      internalID: 1386541571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fca62fe6e66cf40a56686be661aa9f
+      internalID: 1840243237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b2f4b391068d84ebebafc390895382
+      internalID: -1788053083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb8ae420ebe1c741a507ed3b04ca98f
+      internalID: -1327888704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303c55c9ad2a05241bf043b7d81e94bb
+      internalID: 1180084165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d65a18e7dacd341a229d1b69ca2758
+      internalID: 1738313744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7e6f3fd7d5b3e45b7a164fd22ba424
+      internalID: -377015319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f955ad92f9efb4b45af346d8fa9b421d
+      internalID: 1791343050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0265bf943b9a13645945a234709615da
+      internalID: -1246504835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07265833ce58c044930df4291f14847
+      internalID: 1636386865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e50f7bf39959949b10452c4ab9dacc
+      internalID: 1542081936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50e1ed7110b7714980b23107ec47797
+      internalID: 1601155767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563b9f8d0853b8842be58bbaec60b870
+      internalID: -2052272291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1b09d6020c282478f93cf2d360973e
+      internalID: -2051914268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3641d053d05ff1b4da8d2ba6fdf50630
+      internalID: 1317487292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fcd715f1a95ae479f8e07ba1bae072
+      internalID: -265379687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ada5bac7055b04ea2cf918409576df
+      internalID: -742641278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067ec11ab59da9140860b67e239a11d0
+      internalID: -1251442495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec1af4e13534d043af0e49e77a5a683
+      internalID: 902264790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b060ae7feaab6542b8d122bfca0a906
+      internalID: -877210689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd2efb4180a9914789e918d69225bc2
+      internalID: 1816017862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402c3fb617d3c914e8241ea27625bd9a
+      internalID: -881501788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0ec1fad8361eb49a6d1bf81a90037a
+      internalID: 302654111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed97227b575f57c4f83b4a35cf030be0
+      internalID: -1274925244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f814aa1051b82c449a3e6c13b8762424
+      internalID: -469078016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590523ddc4533c546b904a15073b1291
+      internalID: -801253453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c854f5b28b0c3d6438b013d1d8c7595a
+      internalID: 1621102822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5c9731528b95f499368a54c475cd4b
+      internalID: -1374310270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Outside Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7e3c58a5aefd846baf398bafb90cf3
+      internalID: 255853985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dark Outside Tiles_17: 1601155767
+      Dark Outside Tiles_18: -2052272291
+      Dark Outside Tiles_19: -2051914268
+      Dark Outside Tiles_25: -877210689
+      Dark Outside Tiles_21: -265379687
+      Dark Outside Tiles_16: 1542081936
+      Dark Outside Tiles_11: 1738313744
+      Dark Outside Tiles_28: 302654111
+      Dark Outside Tiles_3: 257615525
+      Dark Outside Tiles_12: -377015319
+      Dark Outside Tiles_20: 1317487292
+      Dark Outside Tiles_32: 1621102822
+      Dark Outside Tiles_22: -742641278
+      Dark Outside Tiles_31: -801253453
+      Dark Outside Tiles_29: -1274925244
+      Dark Outside Tiles_33: -1374310270
+      Dark Outside Tiles_9: -1327888704
+      Dark Outside Tiles_30: -469078016
+      Dark Outside Tiles_15: 1636386865
+      Dark Outside Tiles_13: 1791343050
+      Dark Outside Tiles_6: 1386541571
+      Dark Outside Tiles_4: -1215153954
+      Dark Outside Tiles_23: -1251442495
+      Dark Outside Tiles_0: 1795795340
+      Dark Outside Tiles_34: 255853985
+      Dark Outside Tiles_26: 1816017862
+      Dark Outside Tiles_5: -1016693966
+      Dark Outside Tiles_14: -1246504835
+      Dark Outside Tiles_2: -496252253
+      Dark Outside Tiles_24: 902264790
+      Dark Outside Tiles_1: 1648150410
+      Dark Outside Tiles_10: 1180084165
+      Dark Outside Tiles_27: -881501788
+      Dark Outside Tiles_8: -1788053083
+      Dark Outside Tiles_7: 1840243237
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
