@@ -58,6 +58,8 @@ public class Button : MonoBehaviour
             spriteRenderDark.sprite = spriteOn;
             objectsToCall[i].SendMessage(functionsToCall[i]);
             isPressed = true;
+
+            Destroy(GameObject.Find("Location Selector(Clone)"));
         }
     }
 
@@ -70,6 +72,13 @@ public class Button : MonoBehaviour
             objectsToCallOnDepress[i].SendMessage(functionsToCallOnDepress[i]);
             isPressed = false;
         }
+
+        if (interactableScript.limbScript != null)
+        {
+            interactableScript.Deselect();
+            interactableScript.limbCanInteract = false;
+            interactableScript.limbScript.isUsed = false;
+        }
     }
 
     private void OnMouseDown() 
@@ -78,7 +87,6 @@ public class Button : MonoBehaviour
         {
             if(interactableScript.limbCanInteract)
             {
-                //interactableScript.limbsUsed += 1;
                 if (interactableScript.needsArms)
                 {
                     if(interactableScript.armsInRange == interactableScript.arms)
