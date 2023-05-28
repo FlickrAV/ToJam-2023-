@@ -23701,6 +23701,10 @@ PrefabInstance:
       propertyPath: limbManagerScript
       value: 
       objectReference: {fileID: 1948594096}
+    - target: {fileID: 7339353815636175708, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: limbMenuScript
+      value: 
+      objectReference: {fileID: 1948594096}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
 --- !u!1 &315956035 stripped
@@ -24398,6 +24402,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1053361326990802710, guid: 118ca79bfa1f6944a97130d745c6a28f, type: 3}
   m_PrefabInstance: {fileID: 666114607}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1747810372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8992932241173389475, guid: 118ca79bfa1f6944a97130d745c6a28f, type: 3}
+  m_PrefabInstance: {fileID: 666114607}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1778896401 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2977559114765477924, guid: 9fe713c047d9d0043861dc767cc16ec1, type: 3}
@@ -24518,5 +24527,9 @@ PrefabInstance:
       propertyPath: menuButtons.Array.data[5]
       value: 
       objectReference: {fileID: 479726674}
+    - target: {fileID: 8439734380191971851, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
+      propertyPath: menuButtons.Array.data[6]
+      value: 
+      objectReference: {fileID: 1747810372}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
