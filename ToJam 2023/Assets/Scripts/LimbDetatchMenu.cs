@@ -13,7 +13,8 @@ public class LimbDetatchMenu : MonoBehaviour
     [SerializeField] public PlayerMovement playerScript;
     [SerializeField] private GameObject limbDetatchMenu;
     [SerializeField] public GameObject playerVisionSquare;
-    
+    private Animator playerAnim;
+
     private GameObject throwDestinationIcon;
     private ThrowLocationAllignment throwLocationAllignmentScript;
 
@@ -21,7 +22,7 @@ public class LimbDetatchMenu : MonoBehaviour
 
     [HideInInspector] public bool[] hasLimb = new bool[7];
 
-    [HideInInspector]public bool hasRightEye, hasLeftEye, hasRightArm, hasLeftArm, hasRightLeg, hasLeftLeg, hasBody = true;
+    public bool hasRightEye, hasLeftEye, hasRightArm, hasLeftArm, hasRightLeg, hasLeftLeg, hasBody = true;
 
     [HideInInspector]public bool hasArms = true;
     [HideInInspector]public bool hasLegs = true;
@@ -56,6 +57,7 @@ public class LimbDetatchMenu : MonoBehaviour
 
         //For body throwing
         player = GameObject.FindWithTag("Player");
+        playerAnim = player.GetComponent<Animator>();
         body = GameObject.FindWithTag("Player").GetComponent<ThrowBody>();
         movePoint = GameObject.Find("Move Point");
 
@@ -75,6 +77,13 @@ public class LimbDetatchMenu : MonoBehaviour
         hasRightLeg= hasLimb[4];
         hasLeftLeg= hasLimb[5];
         //hasBody = hasLimb[6];
+
+        playerAnim.SetBool("hasRE", hasLimb[0]);
+        playerAnim.SetBool("hasLE", hasLimb[1]);
+        playerAnim.SetBool("hasRA", hasLimb[2]);
+        playerAnim.SetBool("hasLA", hasLimb[3]);
+        playerAnim.SetBool("hasRL", hasLimb[4]);
+        playerAnim.SetBool("hasLL", hasLimb[5]);
 
         //checks if each limb is active and turns the corrisponding button on or off
         for (int i = 0; i < limbs.Length;i++)
