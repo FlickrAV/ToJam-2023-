@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813566931064670146}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 2.5, z: 0}
+  m_LocalPosition: {x: -2.5, y: 2.5, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 2023374193, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -128,11 +128,16 @@ MonoBehaviour:
   selectedColor: {r: 0, g: 0, b: 0, a: 0}
   limbStateScript: {fileID: 0}
   thingsInRange: 0
+  armsInRange: 0
+  legsInRange: 0
+  needsArms: 0
+  needsLegs: 0
   arms: 0
   legs: 0
   limbCanInteract: 0
   limbScript: {fileID: 0}
-  limbsUsed: 0
+  playerCanInteract: 1
+  playerInteract: 0
 --- !u!61 &1813566931064670151
 BoxCollider2D:
   m_ObjectHideFlags: 0

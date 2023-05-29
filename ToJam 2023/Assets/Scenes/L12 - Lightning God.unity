@@ -18511,6 +18511,14 @@ PrefabInstance:
       propertyPath: limbManagerScript
       value: 
       objectReference: {fileID: 1948594096}
+    - target: {fileID: 7339353815636175708, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: allignment
+      value: 
+      objectReference: {fileID: 692292617}
+    - target: {fileID: 7339353815636175708, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+      propertyPath: limbMenuScript
+      value: 
+      objectReference: {fileID: 1948594096}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
 --- !u!1 &479726674 stripped
@@ -18748,6 +18756,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deea6418aaf16214481312b7652c0cec, type: 3}
+--- !u!114 &692292617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9016019597395717951, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
+  m_PrefabInstance: {fileID: 313245581}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bde64ff94d6124d9c4fb5f2e71f118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &799628123
 GameObject:
   m_ObjectHideFlags: 0
@@ -19223,6 +19242,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e39728aa71c8bf4aa56b26c4a62988b, type: 3}
+--- !u!1 &1332127438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8992932241173389475, guid: 118ca79bfa1f6944a97130d745c6a28f, type: 3}
+  m_PrefabInstance: {fileID: 666114607}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1373479031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19884,5 +19908,9 @@ PrefabInstance:
       propertyPath: menuButtons.Array.data[5]
       value: 
       objectReference: {fileID: 479726674}
+    - target: {fileID: 8439734380191971851, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
+      propertyPath: menuButtons.Array.data[6]
+      value: 
+      objectReference: {fileID: 1332127438}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 423ad5e728488aa4fa04a473c207bd1c, type: 3}
