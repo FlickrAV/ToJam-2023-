@@ -1,0 +1,882 @@
+fileFormatVersion: 2
+guid: 543e992fb5024424aa1e7be1b4f13aeb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ba18cdc3040874e8af9c755ef37c6b
+      internalID: -1744974274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feebd611d93320d45a77bf4b681a516a
+      internalID: 2104640161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f3fa2ae0e738d4886370eafc022e45
+      internalID: -564068042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c76f3646dfc7e4458f7070d2f4191b4
+      internalID: -997191456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3813625b9ece49442872ca8d0ea1b4be
+      internalID: 408028292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427df88882d15bc44b444434bb54c4b0
+      internalID: -1171040605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1088.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2442641c38e5ea418aad5bda3724535
+      internalID: 632345825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc25fa87367b1b459d6705e4becc9e3
+      internalID: 1889147721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe94dc11d5f64e468fe104c95ec659f
+      internalID: 589086357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_9
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cbb7ffd417ed44eb92304cb670bf63
+      internalID: 835278610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df11863f58489a345b53f08813561a4c
+      internalID: 2046598516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_11
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f8f5d8195d0464384cff7e4be1bc2d
+      internalID: -1535829718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_12
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9770e6afd3d8378488191984ff1c83a5
+      internalID: -1565087601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_13
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 816.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3003b9c8f8abfd44ab9cb9dd7a5ccf6a
+      internalID: -1110693715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5b7913f569ade4db1d868626e85c9e
+      internalID: -1397701722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50c0a1ebea365640bcb9c4eac6dae20
+      internalID: -560433809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_16
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f358933ae67167546afc9dd321960321
+      internalID: -1944047359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ebc16d05880744dbf50277e1ee8668
+      internalID: 1883992470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_18
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4c1b5b109467d448f07640b2e9951e
+      internalID: -76633299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_19
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b309682e82f21f409c94665b616ac99
+      internalID: 646079162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_20
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 544.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb676743772a6346b4d5820cf5aee7a
+      internalID: 387145450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07ec28a49fdb7d4497d7d3a26f06740
+      internalID: -192436819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2cc0129d198e4439a4ce2224aa7973
+      internalID: 547567745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_23
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01d26c9a1b6346419937e94fe3c49ed
+      internalID: 827339130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_24
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dd05844753e18428f42cde83d50be6
+      internalID: -750347934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_25
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bd211746f710e4aa7814814396cb09
+      internalID: -1009950273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_26
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 272.8
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09f1e870af49fc46b0c37b69aca62a1
+      internalID: 939988769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc774a2b7476e14458d1a84f18f871ca
+      internalID: -943389130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350e9df16adab90488f363e3cdea735e
+      internalID: -1357678451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_29
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6ba20f2a2635848b399f47eacaf780
+      internalID: -78992165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_30
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc208686d34fa8a4cab37d2797e68598
+      internalID: 1206645812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_31
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2ff46e6ed2430469f95eb1579f909a
+      internalID: -472693169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_32
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a6b2c552b8f9f40b4b5564e443c80b
+      internalID: -1308202683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dark Puzzle Piece Elements_33
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0.7999878
+        width: 272.14285
+        height: 272.2
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d17c5274522ed94494fbbe1c68d2dc1
+      internalID: -951198478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dark Puzzle Piece Elements_19: 646079162
+      Dark Puzzle Piece Elements_6: 632345825
+      Dark Puzzle Piece Elements_1: 2104640161
+      Dark Puzzle Piece Elements_14: -1397701722
+      Dark Puzzle Piece Elements_11: -1535829718
+      Dark Puzzle Piece Elements_31: -472693169
+      Dark Puzzle Piece Elements_26: 939988769
+      Dark Puzzle Piece Elements_27: -943389130
+      Dark Puzzle Piece Elements_2: -564068042
+      Dark Puzzle Piece Elements_15: -560433809
+      Dark Puzzle Piece Elements_29: -78992165
+      Dark Puzzle Piece Elements_25: -1009950273
+      Dark Puzzle Piece Elements_9: 835278610
+      Dark Puzzle Piece Elements_4: 408028292
+      Dark Puzzle Piece Elements_28: -1357678451
+      Dark Puzzle Piece Elements_10: 2046598516
+      Dark Puzzle Piece Elements_30: 1206645812
+      Dark Puzzle Piece Elements_8: 589086357
+      Dark Puzzle Piece Elements_12: -1565087601
+      Dark Puzzle Piece Elements_13: -1110693715
+      Dark Puzzle Piece Elements_22: 547567745
+      Dark Puzzle Piece Elements_24: -750347934
+      Dark Puzzle Piece Elements_18: -76633299
+      Dark Puzzle Piece Elements_21: -192436819
+      Dark Puzzle Piece Elements_33: -951198478
+      Dark Puzzle Piece Elements_16: -1944047359
+      Dark Puzzle Piece Elements_3: -997191456
+      Dark Puzzle Piece Elements_7: 1889147721
+      Dark Puzzle Piece Elements_17: 1883992470
+      Dark Puzzle Piece Elements_5: -1171040605
+      Dark Puzzle Piece Elements_23: 827339130
+      Dark Puzzle Piece Elements_32: -1308202683
+      Dark Puzzle Piece Elements_0: -1744974274
+      Dark Puzzle Piece Elements_20: 387145450
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
