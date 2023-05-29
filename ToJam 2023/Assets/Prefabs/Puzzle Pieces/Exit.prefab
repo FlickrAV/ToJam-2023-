@@ -134,7 +134,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: -993522661, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -163,8 +163,6 @@ MonoBehaviour:
   exitOpen: {fileID: -1298893415, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
   exitClose: {fileID: -993522661, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
   exitSpriteDark: {fileID: 8000990256032933712}
-  exitOpenDark: {fileID: -1298893415, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
-  exitCloseDark: {fileID: -993522661, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
 --- !u!61 &2977559114765477923
 BoxCollider2D:
   m_ObjectHideFlags: 0
