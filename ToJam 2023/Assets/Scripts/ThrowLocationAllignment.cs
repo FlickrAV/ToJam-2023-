@@ -60,7 +60,7 @@ public class ThrowLocationAllignment : MonoBehaviour
                 canThrowLimb = true;
             }
         }
-        if (collision.gameObject.CompareTag("Collisions"))
+        if (collision.gameObject.CompareTag("Collisions") || collision.gameObject.CompareTag("Interactable"))
         {
             onACollider = true;
             canThrowLimb = false;
@@ -78,7 +78,7 @@ public class ThrowLocationAllignment : MonoBehaviour
                 canThrowLimb = true;
             }
         }
-        if (collision.gameObject.CompareTag("Collisions"))
+        if (collision.gameObject.CompareTag("Collisions") || collision.gameObject.CompareTag("Interactable"))
         {
             onACollider = true;
             canThrowLimb = false;
@@ -91,7 +91,7 @@ public class ThrowLocationAllignment : MonoBehaviour
         {
             canThrowLimb = false;
         }
-        if (collision.gameObject.CompareTag("Collisions"))
+        if (collision.gameObject.CompareTag("Collisions") || collision.gameObject.CompareTag("Interactable"))
         {
             onACollider = false;
         }

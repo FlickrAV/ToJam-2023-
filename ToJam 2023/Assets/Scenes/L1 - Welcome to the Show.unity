@@ -123,28 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &8056821 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1485889039730517438, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
-  m_PrefabInstance: {fileID: 313245581}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8056827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8056821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85bde64ff94d6124d9c4fb5f2e71f118, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  canThrowIcon: {fileID: 0}
-  cantThrowIcon: {fileID: 0}
-  limbManagerScript: {fileID: 0}
-  canThrowLimb: 0
 --- !u!114 &87255947 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3663188186084377632, guid: bcb8c53ebb8fc64429a4ecf9a9442161, type: 3}
