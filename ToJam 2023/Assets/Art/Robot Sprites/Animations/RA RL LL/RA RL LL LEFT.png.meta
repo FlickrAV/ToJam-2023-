@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -114,7 +114,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RA RL LL LEFT_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 103
+        width: 362
+        height: 923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89bb9a3debe68849812a56d6a07a913
+      internalID: 1570248376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RA RL LL LEFT_1
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 103
+        width: 440
+        height: 910
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80daf00673d4402478d02aba7719707e
+      internalID: 1360381875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RA RL LL LEFT_2
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 103
+        width: 382
+        height: 923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923db3546cebee841a0ce78fb5276f6b
+      internalID: -585689019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RA RL LL LEFT_3
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 105
+        width: 393
+        height: 911
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd1b7707d710464f8a4ff1836274c2d
+      internalID: 1419017573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -125,7 +209,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RA RL LL LEFT_0: 1570248376
+      RA RL LL LEFT_1: 1360381875
+      RA RL LL LEFT_2: -585689019
+      RA RL LL LEFT_5: -1936814945
+      RA RL LL LEFT_4: 419348057
+      RA RL LL LEFT_6: -2015616946
+      RA RL LL LEFT_3: 1419017573
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
