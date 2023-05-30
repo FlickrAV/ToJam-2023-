@@ -40,12 +40,12 @@ public class Interactable : MonoBehaviour
     {
         if (limbScript.isArm)
         {
-            armsInRange -= 1;
+            armsInRange = 0;
             armsInRange = Mathf.Clamp(armsInRange, 0, 10);
         }
         else if (limbScript.isLeg)
         {
-            legsInRange -= 1;
+            legsInRange = 0;
             legsInRange = Mathf.Clamp(legsInRange, 0, 10);
         }
     }
@@ -105,7 +105,7 @@ public class Interactable : MonoBehaviour
     {
         if(other.name == "Player")
         {
-            thingsInRange -= 1;
+            thingsInRange = 0;
             if (playerCanInteract)
                 playerInteract = false;
             //Arm check

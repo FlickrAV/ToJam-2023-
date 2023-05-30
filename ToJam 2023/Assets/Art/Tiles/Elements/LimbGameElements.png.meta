@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 271
+  spritePixelsToUnits: 272
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,9 +120,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1088.8
-        width: 272.14285
-        height: 272.2
+        y: 1364
+        width: 272
+        height: 268
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,9 +141,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 1088.8
-        width: 272.14285
-        height: 272.2
+        y: 1361
+        width: 272
+        height: 271
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,9 +162,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 544
-        y: 1088.8
-        width: 272.14285
-        height: 272.2
+        y: 1360
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,9 +183,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 816
-        y: 1088.8
-        width: 272.14285
-        height: 272.2
+        y: 1360
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,9 +204,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1088
-        y: 1088.8
-        width: 272.14285
-        height: 272.2
+        y: 1359
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,9 +225,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1360
-        y: 1088.8
-        width: 272.14285
-        height: 272.2
+        y: 1360
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,9 +246,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1632
-        y: 1088.8
-        width: 272.14285
-        height: 272.2
+        y: 1360
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,7 +267,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 817
+        y: 1089
         width: 544
         height: 272
       alignment: 0
@@ -288,9 +288,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 816
-        y: 816.8
-        width: 272.14285
-        height: 272.2
+        y: 1089
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,9 +309,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1088
-        y: 816.8
-        width: 272.14285
-        height: 272.2
+        y: 1088
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,9 +330,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1360
-        y: 816.8
-        width: 272.14285
-        height: 272.2
+        y: 1088
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,9 +351,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1632
-        y: 816.8
-        width: 272.14285
-        height: 272.2
+        y: 1088
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,7 +372,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 545
+        y: 817
         width: 544
         height: 272
       alignment: 0
@@ -393,7 +393,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 544
-        y: 354
+        y: 626
         width: 272
         height: 680
       alignment: 0
@@ -414,9 +414,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 816
-        y: 544.8
-        width: 272.14285
-        height: 272.2
+        y: 816
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,9 +435,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1088
-        y: 544.8
-        width: 272.14285
-        height: 272.2
+        y: 816
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,9 +456,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1360
-        y: 544.8
-        width: 272.14285
-        height: 272.2
+        y: 816
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,9 +477,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1632
-        y: 544.8
-        width: 272.14285
-        height: 272.2
+        y: 816
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,34 +494,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LimbGameElements_21
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 272.8
-        width: 272.14285
-        height: 272.2
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f42fae6e59445744fb4c2908cda15761
-      internalID: 2023374193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: LimbGameElements_22
       rect:
         serializedVersion: 2
         x: 272
-        y: 272.8
-        width: 272.14285
-        height: 272.2
+        y: 545
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,9 +519,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 816
-        y: 272.8
-        width: 272.14285
-        height: 272.2
+        y: 545
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,9 +540,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1088
-        y: 272.8
-        width: 272.14285
-        height: 272.2
+        y: 544
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,9 +561,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1360
-        y: 272.8
-        width: 272.14285
-        height: 272.2
+        y: 544
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,9 +582,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1632
-        y: 272.8
-        width: 272.14285
-        height: 272.2
+        y: 544
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,7 +603,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
+        y: 272
         width: 544
         height: 272
       alignment: 0
@@ -645,9 +624,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 544
-        y: 0.7999878
-        width: 272.14285
-        height: 272.2
+        y: 272
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,9 +645,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 816
-        y: 0.7999878
-        width: 272.14285
-        height: 272.2
+        y: 272
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,9 +666,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1088
-        y: 0.7999878
-        width: 272.14285
-        height: 272.2
+        y: 272
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,9 +687,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1360
-        y: 0.7999878
-        width: 272.14285
-        height: 272.2
+        y: 272
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,9 +708,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1632
-        y: 0.7999878
-        width: 272.14285
-        height: 272.2
+        y: 272
+        width: 272
+        height: 272
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,6 +720,48 @@ TextureImporter:
       bones: []
       spriteID: 915dda4ee3e2bea4b87575989b010bda
       internalID: 906739869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameElements_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8404e2404a81d14d9a8a205d9bb1e3d
+      internalID: 2023374193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LimbGameElements_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 544
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69b45dcdcd7838419e403f0022c0121
+      internalID: 93699471
       vertices: []
       indices: 
       edges: []
@@ -757,7 +778,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       LimbGameElements_31: 849506837
-      LimbGameElements_21: 2023374193
+      LimbGameElements_21: -1461971116
       LimbGameElements_24: 1098932656
       LimbGameElements_17: 847125306
       LimbGameElements_28: 563132940
@@ -775,7 +796,6 @@ TextureImporter:
       LimbGameElements_12: -570431896
       LimbGameElements_11: -255783035
       LimbGameElements_2: -993522661
-      LimbGameElements_7: -1461971116
       LimbGameElements_23: -948232281
       LimbGameElements_30: -1622630219
       LimbGameElements_33: 906739869
@@ -783,6 +803,7 @@ TextureImporter:
       LimbGameElements_25: 1322314483
       LimbGameElements_0: -1436121206
       LimbGameElements_6: 1097382663
+      LimbGameElements_34: 93699471
       LimbGameElements_4: -633146785
       LimbGameElements_20: 253412027
       LimbGameElements_5: -2047526734
