@@ -61,6 +61,7 @@ public class LimbDetatchMenu : MonoBehaviour
         body = GameObject.FindWithTag("Player").GetComponent<ThrowBody>();
         movePoint = GameObject.Find("Move Point");
 
+        if (GameObject.FindWithTag("Interactable"))
         interactables = GameObject.FindWithTag("Interactable").GetComponent<Button>();
 
     }
@@ -302,7 +303,8 @@ public class LimbDetatchMenu : MonoBehaviour
             GameObject.Find("Left Leg(Clone)").GetComponent<Limb>().interactables.Clear();
         }
 
-        interactables.ButtonDepressed();
+        if (GameObject.FindWithTag("Interactable"))
+            interactables.ButtonDepressed();
 
 
         //destroys all detatched limbs
