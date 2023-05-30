@@ -37,7 +37,7 @@ public class Counter : MonoBehaviour
     }
     private void Subtract()
     {
-        if (totalCount > -1)
+        if (totalCount > -0)
             totalCount -= 1;
     }
     private void OnHitMax()

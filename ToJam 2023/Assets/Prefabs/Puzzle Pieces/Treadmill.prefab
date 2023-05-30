@@ -193,8 +193,8 @@ MonoBehaviour:
   functionsToCallOnDepress:
   - RespawnLock
   spriteRender: {fileID: 5361082137329410832}
-  spriteOn: {fileID: 563132940, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
-  spriteOff: {fileID: 93699471, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
+  spriteOn: {fileID: 93699471, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
+  spriteOff: {fileID: 563132940, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
   spriteRenderDark: {fileID: 3047349765251377617}
 --- !u!114 &533459650197264138
 MonoBehaviour:

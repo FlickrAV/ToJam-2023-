@@ -27196,6 +27196,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5361082137329410835, guid: 6dc06b675ad51494e9daedc844d97b41, type: 3}
+      propertyPath: spriteOn
+      value: 
+      objectReference: {fileID: 93699471, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
+    - target: {fileID: 5361082137329410835, guid: 6dc06b675ad51494e9daedc844d97b41, type: 3}
+      propertyPath: spriteOff
+      value: 
+      objectReference: {fileID: 563132940, guid: f9b56c81c09f36d4481ef2194d5c052a, type: 3}
+    - target: {fileID: 5361082137329410835, guid: 6dc06b675ad51494e9daedc844d97b41, type: 3}
       propertyPath: objectsToCall.Array.data[0]
       value: 
       objectReference: {fileID: 1909360411}
